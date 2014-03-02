@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: BJCP Style Data | BREW PUPPY dot NET]]></title>
+  <link href="http://brewpuppy.github.io/blog/categories/bjcp-style-data/atom.xml" rel="self"/>
+  <link href="http://brewpuppy.github.io/"/>
+  <updated>2014-03-02T17:48:20-06:00</updated>
+  <id>http://brewpuppy.github.io/</id>
+  <author>
+    <name><![CDATA[Luke Dodge]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Release: BJCP Style Data]]></title>
+    <link href="http://brewpuppy.github.io/blog/2013/05/29/release-bjcp-style-data/"/>
+    <updated>2013-05-29T00:00:00-05:00</updated>
+    <id>http://brewpuppy.github.io/blog/2013/05/29/release-bjcp-style-data</id>
+    <content type="html"><![CDATA[<p>Today I am launching the <a href="https://github.com/brewpuppy/bjcp-style-data">BJCP Style Data</a> repository, a collection of data files containing information from the official BJCP style guidelines. While the <a href="http://www.bjcp.org/stylecenter.php">BJCP website</a> contains a wealth of beer style information, none of the provided files are conducive to data processing. The goal of this project is to provide the official BJCP style guidelines in multiple data formats which can be easily used in software applications.</p>
+]]></content>
+  </entry>
+  
+</feed>

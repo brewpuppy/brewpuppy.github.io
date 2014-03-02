@@ -1,0 +1,22 @@
+﻿/* TEAM */
+
+    Brewer: Luke Dodge
+    Twitter: @brewpuppy
+    Contact: contact [at] brewpuppy.net
+    From: Kansas, United States
+
+/* THANKS */
+
+    Name: The Wife
+    She still listens to me babble on about things I'm exited but she could care less.
+
+    Name: Mari and Sian
+    While not actually humans, these corgis have been there for me through all stages of development and inspired the name of the site.
+
+/* SITE */
+
+    Last Update: 2013.12.22
+    Version: 2.0.0
+    Language: English
+    Components: Octopress, Twitter Bootstrap, d3.js, JQuery
+    Software: Notepad++

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>BJCP Style Tree - BREW PUPPY dot NET</title>
+  <meta name="author" content="Luke Dodge">
+
+  <meta name="description" content="Browse all the official BJCP beer, cider and mead styles through an interactive graphical tree.">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://brewpuppy.github.io/beer-kingdom/bjcp-style-tree">
+  <link href="/favicon.png" type="image/png" rel="icon">
+  <link href="/atom.xml" rel="alternate" title="BREW PUPPY dot NET" type="application/atom+xml">
+
+  <link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/spacelab/bootstrap.min.css">
+
+
+  <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32307763-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+  <body   class="no-sidebar"  >
+    <div id="wrap">
+      <header role="banner">
+        <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">BREW PUPPY dot NET</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li >
+                    <a href="/">Blog</a>
+                </li>
+                <li >
+                    <a href="/blog/archives">Archives</a>
+                </li>
+                <li class="active">
+                    <a href="/beer-kingdom/bjcp-style-tree">BJCP Style Tree</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+            </ul>
+            
+                <form class="search navbar-form navbar-right" action="http://google.com/search" method="GET">
+                    <input type="hidden" name="q" value="site:brewpuppy.github.io">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+</nav>
+
+
+      </header>
+      <div id="main" class="container">
+        <div id="content">
+          <div class="row">
+  <div class="page-content ">
+    <article role="article">
+      
+        <header class="page-header">
+          
+          
+            <h1 class="entry-title">
+              BJCP Style Tree
+              
+            </h1>
+          
+        </header>
+      
+      <div class="entry-content">
+        <link rel="stylesheet" type="text/css" href="css/style.min.css">
+
+<div class="btn-toolbar">
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" onclick="toggle(root.children[0]); update(root.children[0]);">Beer</button>
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li role="presentation" class="dropdown-header">Notes</li>
+            <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#beer-general-notes">General</a></li>
+            <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#beer-brewers-notes">Brewers</a></li>
+            <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#beer-organizers-notes">Organizers</a></li>
+            <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#beer-judges-notes">Judges</a></li>
+            <li role="presentation" class="divider"></li>
+            <li><a href="javascript:void(0)" onclick="$('.beer-notes').collapse('toggle');">All Notes</a></li>
+        </ul>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" onclick="toggle(root.children[1]); update(root.children[1]);">Mead</button>
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li role="presentation" class="dropdown-header">Notes</li>
+            <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#mead-attributes">Important Attributes</a></li>
+            <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#mead-characteristics">Common Characteristics</a></li>
+            <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#mead-entering-categorizing">Entering/Categorizing</a></li>
+            <li role="presentation" class="divider"></li>
+            <li><a href="javascript:void(0)" onclick="$('.mead-notes').collapse('toggle');">All Notes</a></li>
+        </ul>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" onclick="toggle(root.children[2]); update(root.children[2]);">Cider</button>
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li role="presentation" class="dropdown-header">Notes</li>
+            <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#cider-general">General</a></li>
+            <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#cider-aroma-flavor">Aroma and Flavor</a></li>
+            <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#cider-appearance">Appearance</a></li>
+            <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#cider-mouthfeel">Mouthfeel</a></li>
+            <li><a href="javascript:void(0)" data-toggle="collapse" data-target="#cider-ingredients">Ingredients</a></li>
+            <li role="presentation" class="divider"></li>
+            <li><a href="javascript:void(0)" onclick="$('.cider-notes').collapse('toggle');">All Notes</a></li>
+        </ul>
+    </div>
+    <button type="button" class="btn btn-primary" onclick="reset()">Reset</button>
+</div>
+
+<small>Select a node to expand, collapse, or display additional information.</small>
+<!-- Beer Notes -->
+<div id="beer-general-notes" class="panel panel-info collapse beer-notes">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            General Notes <small class="muted">Beer</small>
+            <div class="pull-right">
+                <button type="button" class="close" data-toggle="collapse" data-target="#beer-general-notes" aria-hidden="true">&times;</button>
+            </div>
+        </h3>
+    </div>
+    <div class="panel-body">
+        <ol>
+            <li>The style categories have been extensively revised from previous editions of the Style Guidelines. In some cases, style parameters, descriptions, and well-known commercial examples have been changed. Please familiarize yourself with the new Guidelines before using them.</li>
+            <li>The style categories have been renumbered, reordered and recategorized. Please double-check the Guidelines to ensure the style number matches the name you are referencing.</li>
+            <li>Note that SRM is a measure of beer color density more than hue/tint. Keep this in mind when attempting to use only SRM numbers when describing beers. Within these Guidelines, beer color descriptors generally follow the mapping to SRM values.</li>
+        </ol>
+        <div class="table-responsive">
+            <table class="table table-condensed table-striped" style="width: auto;">
+                <thead>
+                    <th>Color Descriptor</th>
+                    <th>SRM Value</th>
+                </thead>
+                <tbody>
+                    <tr><td>Straw</td><td>2 - 3</td></tr>
+                    <tr><td>Yellow</td><td>3 - 4</td></tr>
+                    <tr><td>Gold</td><td>5 - 6</td></tr>
+                    <tr><td>Amber</td><td>6 - 9</td></tr>
+                    <tr><td>Deep amber / light copper</td><td>10 - 14</td></tr>
+                    <tr><td>Copper</td><td>14 - 17</td></tr>
+                    <tr><td>Deep copper / light brown</td><td>17 - 18</td></tr>
+                    <tr><td>Brown</td><td>19 - 22</td></tr>
+                    <tr><td>Dark brown</td><td>22 - 30</td></tr>
+                    <tr><td>Very dark brown</td><td>30 - 35</td></tr>
+                    <tr><td>Black</td><td>30 +</td></tr>
+                    <tr><td>Black, opaque</td><td>40 +</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="beer-brewers-notes" class="panel panel-info collapse beer-notes">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            Brewers&#8217; Notes <small class="muted">Beer</small>
+            <div class="pull-right">
+                <button type="button" class="close" data-toggle="collapse" data-target="#beer-brewers-notes" aria-hidden="true">&times;</button>
+            </div>
+        </h3>
+    </div>
+    <div class="panel-body">
+        <ol>
+            <li>Some styles require additional information to help judges evaluate your beer. Read the Guidelines carefully and provide the required information. Omitting required information will likely result in a mis-judged beer.</li>
+            <li>If you enter a specialty or experimental beer not identified in the Guidelines, or use unusual ingredients, please consider providing supplemental information so the judges can properly understand your beer and intent.</li>
+        </ol>
+    </div>
+</div>
+<div id="beer-organizers-notes" class="panel panel-info collapse beer-notes">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            Organizers&#8217; Notes <small class="muted">Beer</small>
+            <div class="pull-right">
+                <button type="button" class="close" data-toggle="collapse" data-target="#beer-organizers-notes" aria-hidden="true">&times;</button>
+            </div>
+        </h3>
+    </div>
+    <div class="panel-body">
+        <ol>
+            <li>Please ensure that supplemental information submitted by brewers is available to the judges.</li>
+            <li>If brewers omit required information, please seek clarification from the brewers before the competition date.</li>
+            <li>You are free to group style categories and sub-categories in whatever logical groupings you wish for the purpose of your competition, taking into account the number of entries and available judges.</li>
+            <li>You are free to split and regroup style categories for the purpose of your competition, if you feel that a different grouping would be beneficial to your entrants. You are not constrained to keep all sub-categories within a major category together when constructing flights.</li>
+        </ol>
+    </div>
+</div>
+<div id="beer-judges-notes" class="panel panel-info collapse beer-notes">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            Judges&#8217; Notes <small class="muted">Beer</small>
+            <div class="pull-right">
+                <button type="button" class="close" data-toggle="collapse" data-target="#beer-judges-notes" aria-hidden="true">&times;</button>
+            </div>
+        </h3>
+    </div>
+    <div class="panel-body">
+        <ol>
+            <li>Understand that most beer styles are not defined by a single beer. Many styles are quite broad and can encompass multiple stylistically accurate variants. Do not let your understanding of a single beer limit your appreciation of the full range of each beer style.</li>
+            <li>You are free to judge beers in a flight in whatever order makes sense to you, although you should try to sequence the beers in a manner that allows you to preserve your senses and to fairly evaluate each beer.</li>
+            </i>Pay careful attention to the modifiers used in describing the styles. Look for guidance on the magnitude and quality of each characteristic. Notice that many characteristics are optional; beers not evidencing these non-required elements should not be marked down. Phrases such as &#8220;may have,&#8221; &#8220;can contain,&#8221; &#8220;might feature,&#8221; &#8220;is acceptable,&#8221; &#8220;is appropriate,&#8221; &#8220;is typical,&#8221; etc. all indicate optional elements. Required elements are generally written as declaratory phrases, or use words such as &#8220;must&#8221; or &#8220;should.&#8221; Elements that must not be present often use phrases such as &#8220;is inappropriate,&#8221; &#8220;no,&#8221; or &#8220;must not.&#8221;</li>
+            <li>Seek to understand the intent of the style categories and to judge each beer in its entirety. Don&#8217;t overly focus on single elements. Look to the overall balance and character of the beer for your final opinion.</li>
+            <li>If a style guideline calls for required information from the brewer but this information has not been provided to you, please request it from the competition organizer. If the organizer does not have the information, then make a quick evaluation and decide how you wish to categorize the entry. Make note of it on your scoresheet and then judge it as such. It may not always be accurate, but it&#8217;s the best you can do under the circumstances. Do not overly penalize the brewer for missing information; it might not be his fault. Do the best you can and use common sense.</li>
+            <li>If you come across a beer that is clearly out of style, check with the organizer to make sure the entry has been properly labeled and/or categorized. Handling errors do occur.</li>
+        </ol>
+    </div>
+</div>
+<!-- Mead Notes -->
+<div id="mead-attributes" class="panel panel-info collapse mead-notes">
+    <div class="panel-heading">
+        <h3 class="panel-title">Important Attributes <small class="muted">Mead</small>
+        <div class="pull-right">
+            <button type="button" class="close" data-toggle="collapse" data-target="#mead-attributes" aria-hidden="true">&times;</button>
+        </div>
+    </div>
+    <div class="panel-body">
+        <dl>
+            <dt>Sweetness</dt>
+            <dd>A mead may be dry, semi-sweet, or sweet. Sweetness simply refers to the amount of residual sugar in the mead. Sweetness is often confused with fruitiness in a dry mead. Body is related to sweetness, but dry meads can still have some body. Dry meads do not have to be bone dry. Sweet meads should not be cloyingly sweet, and should not have a raw, unfermented honey character. Sweetness is independent of strength.</dd>
+            <dt>Carbonation</dt>
+            <dd>A mead may be still, petillant, or sparkling. Still meads do not have to be totally flat; they can have some very light bubbles. Petillant meads are &#8220;lightly sparkling&#8221; and can have a moderate, noticeable amount of carbonation. Sparkling meads are not gushing, but may have a character ranging from mouth-filling to an impression akin to Champagne or soda pop.</dd>
+            <dt>Strength</dt>
+            <dd>A mead may be categorized as hydromel, standard, or sack strength. Strength refers to the alcohol content of the mead (and also, therefore, the amount of honey and fermentables used to make the mead). Stronger meads can have a greater honey character and body (as well as alcohol) than weaker meads, although this is not a strict rule.</dd>
+            <dt>Honey Variety</dt>
+            <dd>Some types of honey have a strong varietal character (aroma, flavor, color, acidity). If a honey is unusual, additional information can be provided to judges as to the character to be expected. Note that &#8220;wildflower&#8221; isn&#8217;t a varietal honey; it is specifically a term used to describe a honey derived from unknown or mixed flowers.</dd>
+            <dt>Special Ingredients</dt>
+            <dd>Different sub-styles may include fruit, spice, malt, etc. Judges need to understand the ingredients that provide a unique character in order to properly evaluate the mead.</dd>
+        </dl>
+    </div>
+</div>
+<div id="mead-characteristics" class="panel panel-info collapse mead-notes">
+    <div class="panel-heading">
+        <h3 class="panel-title">Common Characteristics <small class="muted">Mead</small>
+        <div class="pull-right">
+            <button type="button" class="close" data-toggle="collapse" data-target="#mead-characteristics" aria-hidden="true">&times;</button>
+        </div>
+    </div>
+    <div class="panel-body">
+        <dl>
+            <dt>Appearance</dt>
+            <dd>Clarity may be good to brilliant. Crystal clear, reflective examples with a bright, distinct meniscus are highly desirable. Observable particulates (even in a clear example) are undesirable. Highly carbonated examples usually have a short-lasting head similar to Champagne or soda pop. Some aspects of bubbles or head formation that may be observed and commented upon include size (large or small), persistence (how long do they continue to form?), quantity (how much are present?), rate (how fast do they form?), and mousse (appearance or quality of foam stand). The components of bubbles or head will vary greatly depending on the carbonation level, ingredients and type of mead. In general, smaller bubbles are more desirable and indicative of higher quality than larger bubbles. The color may vary widely depending on honey variety and any optional ingredients (e.g., fruit, malts). Some honey varieties are almost clear, while others can be dark brown. Most are in the straw to gold range. If no honey variety is declared, almost any color is acceptable. If a honey variety is declared, the color should generally be suggestive of the honey used (although a wide range of color variation is still possible). Hue, saturation and purity of color should be considered. Stronger versions (standard and sack) may show signs of body (e.g., legs, meniscus) but higher carbonation levels can interfere with this perception.</dd>
+            <dt>Aroma</dt>
+            <dd>The intensity of the honey aroma will vary based upon the sweetness and strength of the mead. Stronger or sweeter meads may have a stronger honey aroma than drier or weaker versions. Different varieties of honey have different intensities and characters; some (e.g., orange blossom, buckwheat) are more recognizable than others (e.g., avocado, palmetto). If honey varieties are declared, the varietal character of the honey should be apparent even if subtle. The aromatics may seem vinous (similar to wine), and may include fruity, floral, or spicy notes. The bouquet (rich, complex smells arising from the combination of ingredients, fermentation and aging) should show a pleasant fermentation character, with clean and fresh aromatics being preferred over dirty, yeasty, or sulfury notes. A multi-faceted bouquet, also known as complexity or depth, is a positive attribute. Phenolic or diacetyl aromatics should not be present. Harsh or chemical aromatics should not be present. Light oxidation may be present, depending on age, and may result in sherry-like notes, which are acceptable in low to moderate levels (if in balance, these can add to complexity). An excessive sherry character is a fault in most styles (except certain Polish-style specialties, or other meads attempting a sherry-like character). Oxidation resulting in a papery character is always undesirable. Alcohol aromatics may be present, but hot, solventy or irritating overtones are a defect. The harmony and balance of the aroma and bouquet should be pleasant and enticing.</dd>
+            <dt>Flavor</dt>
+            <dd>The intensity of the honey flavor will vary based upon the sweetness and strength of the mead. Stronger, sweeter meads will have a stronger honey flavor than drier, weaker versions. Different varieties of honey have different intensities and characters; some (e.g., orange blossom, buckwheat) are more recognizable than others (e.g., safflower, palmetto). If honey varieties are declared, the varietal character of the honey should be apparent even if subtle. The residual sweetness level will vary with the sweetness of the mead; dry meads will have no residual sugar, sweet meads will have noticeable to prominent sweetness, semi-sweet meads will have a balanced sweetness. In no case should the residual sweetness be syrupy, cloying or seem like unfermented honey. Any additives, such as acid or tannin, should enhance the honey flavor and lend balance to the overall character of the mead but not be excessively tart or astringent. Artificial, chemical, harsh, phenolic or bitter flavors are defects. Higher carbonation (if present) enhances the acidity and gives a &#8220;bite&#8221; to the finish. The aftertaste should be evaluated; longer finishes are generally most desirable. A multi-faceted flavor, also known as complexity or depth, is a positive attribute. Yeast or fermentation characteristics may be none to noticeable, with estery, fresh and clean flavors being most desirable. Alcohol flavors (if present) should be smooth and well-aged, not harsh or solventy. Light oxidation may be present, depending on age, but an excessive sherry-like or papery character should be avoided. Aging and conditioning generally smooth out flavors and create a more elegant, blended, rounded product. Flavors tend to become more subtle over time, and can deteriorate with extended aging.</dd>
+            <dt>Mouthfeel</dt>
+            <dd>Before evaluating, refer to the declared sweetness, strength and carbonation levels, as well as any special ingredients. These can all affect mouthfeel. Smooth texture. Well-made examples will often have an elegant wine-like character. The body can vary widely, although most are in the medium-light to medium-full range. Body generally increases with stronger and/or sweeter meads, and can sometimes be quite full and heavy. Similarly, body generally decreases with lower gravity and/or drier meads, and can sometimes be quite light. Sensations of body should not be accompanied by an overwhelmingly cloying sweetness (even in sweet meads). A very thin or watery body is likewise undesirable. Some natural acidity is often present (particularly in fruit-based meads). Low levels of astringency are sometimes present (either from specific fruit or spices, or from tea, chemical additives or oak-aging). Acidity and tannin help balance the overall honey, sweetness and alcohol presentation. Carbonation can vary widely (see definitions above). Still meads may have a very light level of carbonation, lightly carbonated (petillant) meads will have noticeable bubbles, and a highly carbonated (sparkling) mead can range from a mouth-filling carbonation to levels approaching Champagne or soda pop. High carbonation will enhance the acidity and give a &#8220;bite&#8221; to the finish. A warming alcohol presence is often present, and this character usually increases with strength (although extended aging can smooth this sensation).</dd>
+            <dt>Overall Impression</dt>
+            <dd>A wide range of results are possible, but well-made examples will have an enjoyable balance of honey flavors, sweetness, acidity, tannins, alcohol. Strength, sweetness and age greatly affect the overall presentation. Any special ingredients should be well-blended with the other ingredients, and lead to a harmonious end product.</dd>
+            <dt>Ingredients</dt>
+            <dd>Mead is made primarily from honey, water and yeast. Some minor adjustments in acidity and tannin can be made with citrus fruits, tea, chemicals, or the use of oak aging; however, these additives should not be readily discernable in flavor or aroma. Yeast nutrients may be used but should not be detected. If citrus, tea, or oak additives result in flavor components above a low, background, balance-adjusting level, the resulting mead should be entered appropriately (e.g., as a metheglin or open category mead, not a traditional).</dd>
+            <dt>Vital Statistics</dt>
+            <dd>Note that the perception of sweetness is a function of the percentage of residual sugar, so don&#8217;t rely only on FG to determine sweetness. Consider the OG, strength, and to a lesser extent, acidity, in assessing sweetness.
+                <ul>
+                    <li>OG
+                        <ul>
+                            <li>hydromel: 1.035 - 1.080</li>
+                            <li>standard: 1.080 - 1.120</li>
+                            <li>sack: 1.120 - 1.170</li>
+                        </ul>
+                    </li>
+                    <li>ABV
+                        <ul>
+                            <li>hydromel: 3.5 - 7.5%</li>
+                            <li>standard: 7.5 - 14%</li>
+                            <li>sack: 14 - 18%</li>
+                        </ul>
+                    </li>
+                    <li>FG
+                        <ul>
+                            <li>dry: 0.990 - 1.010</li>
+                            <li>semi-sweet: 1.010 - 1.025</li>
+                            <li>sweet: 1.025 - 1.050</li>
+                        </ul>
+                    </li>
+                    <li>IBUs: Not relevant for anything but braggot, but bittering hops are optional even in this style.</li>
+                    <li>SRM: Basically irrelevant since honey can be anything from almost clear to dark brown. Melomels and pyments can have orange, red, pink and/or purple hues. Cysers are most often golden. Braggots can be yellow to black. In all cases, the color should reflect the ingredients used (type of honey, and fruit and/or malt in some styles).</li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+</div>
+<div id="mead-entering-categorizing" class="panel panel-info collapse mead-notes">
+    <div class="panel-heading">
+        <h3 class="panel-title">Entering/Categorizing <small class="muted">Mead</small>
+        <div class="pull-right">
+            <button type="button" class="close" data-toggle="collapse" data-target="#mead-entering-categorizing" aria-hidden="true">&times;</button>
+        </div>
+    </div>
+    <div class="panel-body">
+        <dl>
+            <dt>Mandatory Requirements</dt>
+            <dd>
+                <ul>
+                    <li>Entrants MUST specify carbonation level (still; petillant or lightly carbonated; sparkling or highly carbonated).</li>
+                    <li>Entrants MUST specify strength level (hydromel or light mead; standard mead; sack or strong mead).</li>
+                    <li>Entrants MUST specify sweetness level (dry; semi-sweet; sweet).</li>
+                </ul>
+            </dd>
+            <dt>Optional Requirements</dt>
+            <dd>
+                <ul>
+                    <li><em>Entrants MAY specify honey varieties used.</em> If honey varieties are declared, judges will look for the varietal character of the honey. Note that the character of a varietal honey will be identifiable as distinct to the source flowers, but may not resemble the source plant, tree, or fruit. For example, orange-blossom honey has the character of orange blossoms, not oranges; blackberry honey is only distantly like blackberries, although it is an identifiable character.</li>
+                    <li><em>Category-Specific Requirements:</em> Some categories require additional information, particularly in categories other than traditional mead. For example, declaring specific fruit, spices, or special characteristics. Supplemental materials may be provided to judges if an obscure ingredient or method is used.</li>
+                    <li><em>Defaults:</em> If no attributes are specified, judges should evaluate the mead as a semi-sweet, petillant, standard-strength mead with no varietal honey character and no special ingredients. Competition organizers should make every effort to ensure that judges are provided the full set of attributes of the meads being evaluated.</li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+</div>
+ <!-- Cider Notes -->
+<div id="cider-general" class="panel panel-info collapse cider-notes">
+    <div class="panel-heading">
+        <h3 class="panel-title">General Notes <small class="muted">Cider</small>
+        <div class="pull-right">
+            <button type="button" class="close" data-toggle="collapse" data-target="#cider-general" aria-hidden="true">&times;</button>
+        </div>
+    </div>
+    <div class="panel-body">
+        <p>Cider is fermented apple juice. Perry is fermented pear juice. There are two categories for cider/perry: Standard (Category 27) and Specialty (Category 28). The Standard category covers ciders and perries made primarily or entirely from the juice of apples or pears (but not both at once). The only adjunct permitted in the Standard category, and only in some sub-categories, is a limited addition of sugar to achieve a suitable starting gravity. Note that honey is not a &#8220;sugar&#8221; for this purpose; a cider made with added honey must be entered either as a Specialty cider or as a Cyser under the appropriate mead sub-category. Other sugar sources that also add significant flavors (brown sugar, molasses) would also create a Specialty cider (such as New England style).</p>
+    </div>
+</div>
+<div id="cider-aroma-flavor" class="panel panel-info collapse cider-notes">
+    <div class="panel-heading">
+        <h3 class="panel-title">Aroma and Flavor <small class="muted">Cider</small>
+        <div class="pull-right">
+            <button type="button" class="close" data-toggle="collapse" data-target="#cider-aroma-flavor" aria-hidden="true">&times;</button>
+        </div>
+    </div>
+    <div class="panel-body">
+        <p>Ciders and perries do not necessarily present overtly fruity aromas or flavors - in the same sense that a wine does not taste overtly of grapes. Drier styles of cider in particular develop more complex but less fruity characters. In fact, a simple &#8220;apple soda&#8221; or &#8220;wine cooler&#8221; character is not desirable in a cider or perry. Some styles of cider exhibit distinctly NON-fruity tastes or aromas, such as the &#8220;smoky bacon&#8221; undertones of a dry English cider.</p>
+        <dl>
+            <dt>Sweetness</dt>
+            <dd>
+                <p>The sweetness (residual sugar, or RS) of a cider or perry may vary from absolutely dry (no RS) to as much as a sweet dessert wine (10% or more RS). In sweeter ciders, other components of taste - particularly acidity - must balance the sweetness. The level of sweetness must be specified in order to arrange flights of tastings and entries within flights. Tasting always proceeds from drier to sweeter. There are three categories of sweetness:</p>
+                <ul>
+                    <li><strong>Dry:</strong> below 0.9% residual sugar. This corresponds to a final specific gravity of under 1.002.</li>
+                    <li><strong>Medium:</strong> in the range between dry and sweet (0.9% to 4% residual sugar, final gravity 1.002 to 1.012). Sometimes characterized as either &#8216;off-dry&#8217; or &#8216;semi-sweet.&#8217;</li>
+                    <li><strong>Sweet:</strong> above 4% residual sugar, roughly equivalent to a final gravity of over 1.012.</li>
+                </ul>
+                <p>If a cider is close to one of these boundaries, it should be identified by the sweetness category which best describes the overall impression it gives.</p>
+            </dd>
+            <dt>Acidity</dt>
+            <dd>Acidity is an essential element of cider and perry: it must be sufficient to give a clean, refreshing impression without being puckering. Acidity (from malic and in some cases lactic acids) must not be confused with acetification (from acetic acid - vinegar): the acrid aroma and tingling taste of acetification is a fault.</dd>
+            <dt>Tannin</dt>
+            <dd>Ciders and perries vary considerably in tannin. This affects both bitterness and astringency (see &#8220;Mouthfeel&#8221;). If made from culinary or table fruit, tannins are typically low; nevertheless some tannin is desirable to balance the character. The character contributed by tannin should be mainly astringency rather than bitterness. An overt or forward bitterness is a fault (and is often due to processing techniques rather than fruit).</dd>
+        </dl>
+    </div>
+</div>
+<div id="cider-appearance" class="panel panel-info collapse cider-notes">
+    <div class="panel-heading">
+        <h3 class="panel-title">Appearance <small class="muted">Cider</small>
+        <div class="pull-right">
+            <button type="button" class="close" data-toggle="collapse" data-target="#cider-appearance" aria-hidden="true">&times;</button>
+        </div>
+    </div>
+    <div class="panel-body">
+        <dl>
+            <dt>Clarity</dt>
+            <dd>May vary from good to brilliant. The lack of sparkling clarity is not a fault, but visible particles are undesirable. In some styles a &#8220;rustic&#8221; lack of brilliance is common. Perries are notoriously difficult to clear; as a result a slight haze is not a fault. However, a &#8220;sheen&#8221; in either cider or perry generally indicates the early stage of lactic contamination and is a distinct fault.</dd>
+            <dt>Carbonation</dt>
+            <dd>May vary from entirely still to a champagne level. No or little carbonation is termed still. A moderate carbonation level is termed petillant. Highly carbonated is termed sparkling. At the higher levels of carbonation, the &#8220;mousse&#8221; (head) may be retained for a short time. However, gushing, foaming, and difficult-to-manage heads are faults.</dd>
+        </dl>
+    </div>
+</div>
+<div id="cider-mouthfeel" class="panel panel-info collapse cider-notes">
+    <div class="panel-heading">
+        <h3 class="panel-title">Mouthfeel <small class="muted">Cider</small>
+        <div class="pull-right">
+            <button type="button" class="close" data-toggle="collapse" data-target="#cider-mouthfeel" aria-hidden="true">&times;</button>
+        </div>
+    </div>
+    <div class="panel-body">
+        <p>In general, cider and perry have a mouthfeel and fullness akin to a substantial white wine. The body is less than that of beers. Full-sparkling ciders will be champagne-like.</p>
+    </div>
+</div>
+<div id="cider-ingredients" class="panel panel-info collapse cider-notes">
+    <div class="panel-heading">
+        <h3 class="panel-title">Ingredients <small class="muted">Cider</small>
+        <div class="pull-right">
+            <button type="button" class="close" data-toggle="collapse" data-target="#cider-ingredients" aria-hidden="true">&times;</button>
+        </div>
+    </div>
+    <div class="panel-body">
+        <p>The apple and pear varieties are intended to illustrate commonly used examples, not dictate requirements when making the style. In general, adjuncts are prohibited except where specifically allowed in particular styles, and then the entrant must state them. Common processing aids, and enzymes, are generally allowed as long as they are not detectable in the finished cider. Yeast used for cider/perry may be either &#8220;natural&#8221; (the yeast which occurs on the fruit itself and/or is retained in the milling and pressing equipment) or cultured yeast. Malo-lactic fermentation is allowed, either naturally occurring or with an added ML culture. Enzymes may be used for clarification of the juice prior to fermentation. Malic acid may be added to a low-acid juice to bring acidity up to a level considered safe for avoiding bacterial contamination and off-flavors (typically pH 3.8 or below). Entrant MUST state if malic acid was added. Sulfites may be added as needed for microbiological control. If used, the maximum accepted safe level for sulfites (200 mg/l) should be strictly observed; moreover, any excess sulfite that is detectable in the finished cider (a &#8220;burning match&#8221; character) is a serious fault.</p>
+        <dl>
+            <dt>Sorbate</dt>
+            <dd>May be added at bottling to stabilize the cider. However, any residual aroma/flavor from misuse or excessive use of sorbate (e.g., a &#8220;geranium&#8221; note) is a distinct fault.</dd>
+            <dt>Carbonation</dt>
+            <dd>May be either natural (by maintaining CO2 pressure through processing or by bottle-conditioning) or added (by CO2 injection).</dd>
+        </dl>
+    </div>
+</div>
+
+<svg></svg>
+
+<small class="text-muted">Powered by <a href="https://github.com/brewpuppy/bjcp-style-data" target="_blank">BJCP Style Data</a> and <a href="http://d3js.org/" target="_blank">d3.js</a></small>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="js/style-tree.js"></script>
+<script src="js/create-modals.js"></script>
+
+<div id="modal-catcher"></div>
+      </div>
+      
+        <footer>
+          
+          
+            <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://brewpuppy.github.io/beer-kingdom/bjcp-style-tree/index.html" data-via="brewpuppy" data-counturl="http://brewpuppy.github.io/beer-kingdom/bjcp-style-tree/index.html" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+          
+        </footer>
+      
+    </article>
+    
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+      </section>
+    
+  </div>
+
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+    <footer role="contentinfo"><div class="container">
+    <p class="text-muted credits">
+  Copyright &copy; 2014 - Luke Dodge<br>
+  <small>
+      <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>,
+      <span class="credit">customized with <a href="https://github.com/kAworu/octostrap3">octostrap3</a></span>.
+  </small>
+</p>
+
+</div>
+</footer>
+    <script src="/javascripts/libs/bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr-2.0.js"></script>
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'brewpuppy';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://brewpuppy.github.io/beer-kingdom/bjcp-style-tree/index.html';
+        var disqus_url = 'http://brewpuppy.github.io/beer-kingdom/bjcp-style-tree/index.html';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+  </body>
+</html>
