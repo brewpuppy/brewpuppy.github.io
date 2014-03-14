@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Racoon River | BREW PUPPY dot NET]]></title>
-  <link href="http://brewpuppy.github.io/blog/categories/racoon-river/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Racoon River Brewing Company | BREW PUPPY dot NET]]></title>
+  <link href="http://brewpuppy.github.io/blog/categories/racoon-river-brewing-company/atom.xml" rel="self"/>
   <link href="http://brewpuppy.github.io/"/>
-  <updated>2014-03-02T18:26:33-06:00</updated>
+  <updated>2014-03-13T20:25:21-05:00</updated>
   <id>http://brewpuppy.github.io/</id>
   <author>
     <name><![CDATA[Luke Dodge]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Raccoon River Brewing Company - Des Moines Iowa]]></title>
+    <title type="html"><![CDATA[Raccoon River Brewing Company - Des Moines, Iowa]]></title>
     <link href="http://brewpuppy.github.io/blog/2013/02/18/raccoon-river-brewing-company-des-moines-iowa/"/>
     <updated>2013-02-18T14:30:00-06:00</updated>
     <id>http://brewpuppy.github.io/blog/2013/02/18/raccoon-river-brewing-company-des-moines-iowa</id>
@@ -71,7 +71,7 @@ Des Moines, IA 50309-3609<br>
 
 <h3>MacCoy&rsquo;s Scotch Ale</h3>
 
-<p>*<small>Sweet, malty and complex dark ale, high gravity</small></p>
+<p><em><small>Sweet, malty and complex dark ale, high gravity</small></em></p>
 
 <p>Dark red in color, this beer has a dark, sweet raisin/chocolate taste which comes through in the nose. Caramel malts provided a balanced sweetness.</p>
 
