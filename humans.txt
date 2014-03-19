@@ -15,7 +15,7 @@
 
 /* SITE */
 
-    Last Update: 2013.12.22
+    Last Update: 2014.03.16
     Version: 2.0.0
     Language: English
     Components: Octopress, Twitter Bootstrap, d3.js, JQuery
