@@ -4,7 +4,7 @@
   <title><![CDATA[BREW PUPPY dot NET]]></title>
   <link href="http://brewpuppy.github.io/atom.xml" rel="self"/>
   <link href="http://brewpuppy.github.io/"/>
-  <updated>2014-03-20T19:40:27-05:00</updated>
+  <updated>2014-03-26T20:33:56-05:00</updated>
   <id>http://brewpuppy.github.io/</id>
   <author>
     <name><![CDATA[Luke Dodge]]></name>
@@ -12,6 +12,608 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Choosing a Hop Variety To Grow]]></title>
+    <link href="http://brewpuppy.github.io/blog/2014/03/24/choosing-a-hop-variety-to-grow/"/>
+    <updated>2014-03-24T00:00:00-05:00</updated>
+    <id>http://brewpuppy.github.io/blog/2014/03/24/choosing-a-hop-variety-to-grow</id>
+    <content type="html"><![CDATA[<p>I knew I wanted to try growing hops this year, but I did not know much else and my gardening experience was limited. At the very least I needed to decide which varieties I would attempt, but how to decide which to buy? After shopping around I was paralysed with all my different choices. Growing hops would be a large time and space commitment for me and I didn&rsquo;t want to make a choice I would regret later.</p>
+
+<p>The following is the process I went through to decide which hop varieties I would grow. I don&rsquo;t claim this to be the best way to decide which hops to grow, but it helped me at least <strong>feel</strong> like I was making an informed decision. Hopefully someone else can use this information to help them as well. <em>Warning:</em> Tables of data ahead.</p>
+
+<!-- More -->
+
+
+<h3>Step One: Identify Priorities</h3>
+
+<p>My first step was to identify my priorities for choosing a hop. These priorities would determine how to use the data collected in Step Two.</p>
+
+<ol>
+<li>Aroma &ndash; Without knowing the alpha acids of the hops I would be growing, I wanted to stick with aroma hops to maintain bitterness consistency.</li>
+<li>Versatility &ndash; I only have enough room to grow a few varieties so I wanted to be able to use what I grow in as many different recipes as possible.</li>
+</ol>
+
+
+<h3>Step Two: Gather Data</h3>
+
+<p>After my priorities had been determined, I needed a way to objectively rate hop varieties in a way which would relate to back my priorities. To do this I recorded the hop usage for each recipe style in <em>Brewing Classic Styles</em> by Jamil Zainasheff and John Palmer. This would give me a decent cross-section across all beer styles. There would be some bias from the authors&rsquo;s personal preferences but I was willing to accept that for this decision.</p>
+
+<p>Legend:</p>
+
+<ul>
+<li>Count: Number of recipes where this hop was used.</li>
+<li>Ounces: Total number of ounces used across all recipes.</li>
+<li>Average: Average ounces of hops used per recipe.</li>
+<li>Hop Additions: Number of additions for each time period during the boil across all recipes.</li>
+</ul>
+
+
+<div class="table-responsive">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                <th>Hop</th>
+                <th>Count</th>
+                <th>Ounces</th>
+                <th>Average</th>
+                <th>90-61</th>
+                <th>60-45</th>
+                <th>44-30</th>
+                <th>29-15</th>
+                <th>14-0</th>
+                <th>Dry</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Amarillo</td>
+                <td>3</td>
+                <td>5.25</td>
+                <td>1.75</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>3</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Cascade</td>
+                <td>4</td>
+                <td>6.5</td>
+                <td>1.625</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>8</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Centennial</td>
+                <td>10</td>
+                <td>14.05</td>
+                <td>1.405</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>13</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Challenger</td>
+                <td>1</td>
+                <td>1.43</td>
+                <td>1.43</td>
+                <td></td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Chinook</td>
+                <td>2</td>
+                <td>3</td>
+                <td>1.5</td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Columbus</td>
+                <td>2</td>
+                <td>5</td>
+                <td>2.5</td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td></td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Czech Sazz</td>
+                <td>5</td>
+                <td>14.52</td>
+                <td>2.904</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+                <td>6</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Fuggles</td>
+                <td>3</td>
+                <td>5.4</td>
+                <td>1.8</td>
+                <td></td>
+                <td>2</td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Hallertau</td>
+                <td>25</td>
+                <td>38.45</td>
+                <td>1.538</td>
+                <td></td>
+                <td>20</td>
+                <td>2</td>
+                <td>5</td>
+                <td>7</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Horizon</td>
+                <td>11</td>
+                <td>11.27</td>
+                <td>1.0245</td>
+                <td></td>
+                <td>11</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Kent Goldings</td>
+                <td>29</td>
+                <td>53.02</td>
+                <td>1.8283</td>
+                <td></td>
+                <td>26</td>
+                <td>1</td>
+                <td>4</td>
+                <td>13</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Liberty</td>
+                <td>1</td>
+                <td>1.5</td>
+                <td>1.5</td>
+                <td></td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Lublin</td>
+                <td>1</td>
+                <td>3.9</td>
+                <td>3.9</td>
+                <td></td>
+                <td>1</td>
+                <td></td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Magnum</td>
+                <td>6</td>
+                <td>5.44</td>
+                <td>0.9067</td>
+                <td></td>
+                <td>6</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Northern Brewer</td>
+                <td>3</td>
+                <td>12.5</td>
+                <td>4.1667</td>
+                <td></td>
+                <td>3</td>
+                <td>1</td>
+                <td>3</td>
+                <td>1</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Perle</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td></td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Simcoe</td>
+                <td>2</td>
+                <td>4.75</td>
+                <td>2.375</td>
+                <td></td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Styrian Goldings</td>
+                <td>1</td>
+                <td>4</td>
+                <td>4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Tettnag</td>
+                <td>5</td>
+                <td>6.05</td>
+                <td>1.21</td>
+                <td></td>
+                <td>4</td>
+                <td></td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Warrior</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Willamette</td>
+                <td>4</td>
+                <td>7.03</td>
+                <td>1.7575</td>
+                <td></td>
+                <td>3</td>
+                <td>2</td>
+                <td>2</td>
+                <td>3</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<h3>Step Three: Analysis</h3>
+
+<p>My top priority was only selecting an aroma hop, so my first step was to eliminate all non-aroma varieties. The first step in identifying aroma hops was to go through <em>For the Love of Hops</em> by Stan Hieronymus and find any varieties in either the Bittering or Proprietary categories.</p>
+
+<p>First, I eliminated all varieties in the Proprietary category. If the variety cannot be purchased it should not be considered. Second, I eliminated all varieties with an aroma percentage (number of aroma additions / total number of additions) less than 0.5 <em>and</em> which did not have an above average number (4.238095238) of aroma hop additions.</p>
+
+<div class="table-responsive">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                <th>Hop</th>
+                <th>Bittering</th>
+                <th>Aroma</th>
+                <th>Aroma %</th>
+                <th>Bittering</th>
+                <th>Proprietary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="danger">
+                <td>Amarillo</td>
+                <td>0</td>
+                <td>4</td>
+                <td>1</td>
+                <td></td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Cascade</td>
+                <td>0</td>
+                <td class="success">8</td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Centennial</td>
+                <td>0</td>
+                <td class="success">15</td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Challenger</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="warning">0</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Chinook</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0.5</td>
+                <td class="warning">Yes</td>
+                <td></td>
+            </tr>
+            <tr class="danger">
+                <td>Columbus</td>
+                <td>1</td>
+                <td>3</td>
+                <td>0.75</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Czech Sazz</td>
+                <td>5</td>
+                <td class="success">7</td>
+                <td>0.58</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Fuggles</td>
+                <td>2</td>
+                <td>3</td>
+                <td>0.6</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Hallertau</td>
+                <td>22</td>
+                <td class="success">12</td>
+                <td class="warning">0.35</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Horizon</td>
+                <td>11</td>
+                <td>0</td>
+                <td class="warning">0</td>
+                <td class="warning">Yes</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Kent Golding</td>
+                <td>27</td>
+                <td class="success">18</td>
+                <td class="warning">0.4</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Liberty</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0.5</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Lublin</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0.5</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Magnum</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="warning">0</td>
+                <td class="warning">Yes</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Northern Brewer</td>
+                <td>4</td>
+                <td>4</td>
+                <td>0.5</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Perle</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="warning">0</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="danger">
+                <td>Simcoe</td>
+                <td>1</td>
+                <td>3</td>
+                <td>0.75</td>
+                <td></td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Styrian Goldings</td>
+                <td>0</td>
+                <td>3</td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tettnag</td>
+                <td>4</td>
+                <td>1</td>
+                <td class="warning">0.2</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="danger">
+                <td>Warrior</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Willamette</td>
+                <td>5</td>
+                <td class="success">5</td>
+                <td>0.5</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<p>The first condition identifies varieties used primarily as a bittering addition. Bitterness additions are defined as any addition 90-30 minutes in the boil. Aroma additions are defined as any addition 29-0 minutes in the boil as well as any addition after the boil. This calculation matched up well against the Stan Hieronymus&rsquo;s Bittering category. The second condition ensured that despite being used primary for bittering, if the variety had an above average number of aroma additions it should be included for consideration.</p>
+
+<p>After applying these two conditions, the original list has been narrowed down (see below) to include only aroma hops which can be purchased commercially.</p>
+
+<div class="table-responsive">
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                <th>Hop</th>
+                <th>Count</th>
+                <th>Ounces</th>
+                <th>Average</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cascade</td>
+                <td>4</td>
+                <td>6.5</td>
+                <td>1.625</td>
+            </tr>
+            <tr>
+                <td>Centennial</td>
+                <td class="success"><strong>10</strong></td>
+                <td class="success">14.05</td>
+                <td>1.405</td>
+            </tr>
+            <tr>
+                <td>Chinook</td>
+                <td>2</td>
+                <td>3</td>
+                <td>1.5</td>
+            </tr>
+            <tr>
+                <td>Czech Sazz</td>
+                <td>5</td>
+                <td class="success">14.52</td>
+                <td class="success">2.904</td>
+            </tr>
+            <tr>
+                <td>Fuggles</td>
+                <td>3</td>
+                <td>5.4</td>
+                <td>1.8</td>
+            </tr>
+            <tr>
+                <td>Hallertau</td>
+                <td class="success"><strong>25</strong></td>
+                <td class="success">38.45</td>
+                <td>1.538</td>
+            </tr>
+            <tr>
+                <td>Kent Golding</td>
+                <td class="success"><strong>29</strong></td>
+                <td class="success">53.02</td>
+                <td>1.8283</td>
+            </tr>
+            <tr>
+                <td>Liberty</td>
+                <td>1</td>
+                <td>1.5</td>
+                <td>1.5</td>
+            </tr>
+            <tr>
+                <td>Lublin</td>
+                <td>1</td>
+                <td>3.9</td>
+                <td class="success">3.9</td>
+            </tr>
+            <tr>
+                <td>Northern Brewer</td>
+                <td>3</td>
+                <td>12.5</td>
+                <td class="success">4.1667</td>
+            </tr>
+            <tr>
+                <td>Styrian Goldings</td>
+                <td>1</td>
+                <td>4</td>
+                <td class="success">4</td>
+            </tr>
+            <tr>
+                <td>Willamette</td>
+                <td>4</td>
+                <td>7.03</td>
+                <td>1.7575</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<p>My secondary priority was only selecting hops which can be used in a variety of recipes; a simple descending sort was all that was needed here. Three hop varieties had above average recipe counts: Kent Goldings, Hallertau, and Centennial.</p>
+
+<h3>Conclusion</h3>
+
+<p>After reviewing the data, the choice was clear as to which hops I should plant. This year I ordered Centennial and Golding varieties. I plan on researching an American strain such as Mt. Hood or Liberty as a substitute for Hallertau next year. I&rsquo;m not yet confident with my gardening abilities and would like to keep to varieties suitable for growing in the Midwest. Perhaps if I am successful this year I&rsquo;ll go all in and order the Hallertau strain next year.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Confluence Brewing Company - Des Moines, Iowa]]></title>
@@ -2788,72 +3390,6 @@ Even though the wait was long the beer was worth it. The ones we tried were a bi
 <h4>Overall Impression: 9 / 10</h4>
 
 <p>A complex beer which felt like a three-stage rocket to drink. This is something I would definitely buy again when I want a one-off IPA. I would recommend this beer to IPA drinkers who are looking for something different. I would <strong>not</strong> recommend this beer to Red Ale drinkers unless you&rsquo;re feeling particularly bold. While there are pleasant malt flavors the hops dominate this beer as any true IPA should and is nothing similar to the styles you may be used to drinking.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Raspberry Pi Received!]]></title>
-    <link href="http://brewpuppy.github.io/blog/2013/04/10/raspberry-pi-received/"/>
-    <updated>2013-04-10T07:29:00-05:00</updated>
-    <id>http://brewpuppy.github.io/blog/2013/04/10/raspberry-pi-received</id>
-    <content type="html"><![CDATA[<p>I finally received my Raspberry Pi Model B today and I must say it was an ordeal. After being on backorder for over a month, last week I began to see <a href="http://news.cnet.com/8301-1023_3-57577289-93/raspberry-pi-$25-model-sells-out-soon-after-u.s-debut/">news articles</a> discussing none other than Allied Electronics selling out of the Raspberry Pi in the United States. Surely if they had enough Raspberry Pis to sell to <em>new</em> customers there would enough inventory to fill backorders, right? So I emailed my account manager and was informed my order had not yet been filled. Huh, that&rsquo;s odd. Maybe they are just backed up with all the business and my order is about to be filled? Nope. I receive the same &ldquo;as soon as we get them in from the supplier but we don&rsquo;t know when that will be&rdquo; response to my query on a possible fill date. Meanwhile, over at <a href="http://www.newark.com/">Newark</a> I&rsquo;ve watched thousands of Raspberry Pis ship out each week.</p>
-
-<p><img class="right" src="http://brewpuppy.github.io/images/blog/2013/04/raspberry-pi-received/logo.jpg" width="350"></p>
-
-<p>Without any sort of time frame and another vendor able to ship today, I could no longer able to justify waiting and decided to cancel my order. Suddenly, upon request to have my order cancelled, I am told my order is being picked in the warehouse. Suspicious coincidence? Maybe, but I was willing to keep my order once I had seen the order was shipped. While I don&rsquo;t like to look a gift horse in the mouth, going forward I will be taking my business to Newark. I would like to point out that my account manager was very helpful, quick to respond to my queries, and spent quite a bit of time communicating with someone whose order was small. All of this despite being at the mercy of whoever was running the warehouse. Enough with that drama already; let&rsquo;s see what is in the box.</p>
-
-<!-- More -->
-
-
-<h4>Raspberry Pi Model B</h4>
-
-<ul>
-<li>512MB RAM</li>
-<li>2 USB 2.0 sockets</li>
-<li>10/100 BaseT Ethernet ports</li>
-<li>Linux operating system</li>
-<li>HDMI socket</li>
-<li>SD card socket</li>
-<li>3.5mm audio out socket</li>
-<li>Raspberry Pi HD video camera connector</li>
-<li>Size: 85.6 x 53.98 x 17mm</li>
-</ul>
-
-
-<p><img src="http://brewpuppy.github.io/images/blog/2013/04/raspberry-pi-received/front.jpg" class="img-responsive" alt="Front of the Board">
-<img src="http://brewpuppy.github.io/images/blog/2013/04/raspberry-pi-received/back.jpg" class="img-responsive" alt="Back of the Board"></p>
-
-<h4>Accessory Kit</h4>
-
-<ul>
-<li>4-port USB Hub</li>
-<li>4GB SDCard</li>
-<li>Enclosure</li>
-<li>USB Power Adapter</li>
-<li>Cable Micro USB Cable</li>
-<li>6 foot HDMI cable</li>
-</ul>
-
-
-<div class="row">
-    <div class="col-md-4">
-        <a href="http://brewpuppy.github.io/images/blog/2013/04/raspberry-pi-received/kit.jpg" class="thumbnail">
-            <img src="http://brewpuppy.github.io/images/blog/2013/04/raspberry-pi-received/kit.jpg" alt="Accessory Kit">
-        </a>
-    </div>
-    <div class="col-md-4">
-        <a href="http://brewpuppy.github.io/images/blog/2013/04/raspberry-pi-received/case-front.jpg" class="thumbnail">
-            <img src="http://brewpuppy.github.io/images/blog/2013/04/raspberry-pi-received/case-front.jpg" alt="Front of Case">
-            <div class="caption"><small>Both front and back feature the &#928; symbol molded into the case.</small></div>
-        </a>
-    </div>
-    <div class="col-md-4">
-        <a href="http://brewpuppy.github.io/images/blog/2013/04/raspberry-pi-received/case-side.jpg" class="thumbnail">
-            <img src="http://brewpuppy.github.io/images/blog/2013/04/raspberry-pi-received/case-side.jpg" alt="Side of Case">
-        </a>
-    </div>
-</div>
-
 ]]></content>
   </entry>
   
