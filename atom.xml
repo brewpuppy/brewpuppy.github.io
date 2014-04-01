@@ -4,7 +4,7 @@
   <title><![CDATA[BREW PUPPY dot NET]]></title>
   <link href="http://brewpuppy.github.io/atom.xml" rel="self"/>
   <link href="http://brewpuppy.github.io/"/>
-  <updated>2014-03-26T20:41:37-05:00</updated>
+  <updated>2014-03-31T21:24:18-05:00</updated>
   <id>http://brewpuppy.github.io/</id>
   <author>
     <name><![CDATA[Luke Dodge]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tasting Notes Hiatus]]></title>
+    <link href="http://brewpuppy.github.io/blog/2014/03/31/tasting-notes-hiatus/"/>
+    <updated>2014-03-31T21:22:09-05:00</updated>
+    <id>http://brewpuppy.github.io/blog/2014/03/31/tasting-notes-hiatus</id>
+    <content type="html"><![CDATA[<p>Right now I am supposed to be finishing the tasting notes of Grainstorm, Boulevard&rsquo;s latest beer in the Smokestack series. My tasting notes are sitting right next to my keyboard and the text file with my initial notes is still open. This situation has not changed in at least an hour. I didn&rsquo;t realize how much I was putting this write-up off until I caught myself browsing through pictures of Husky puppies; I just can&rsquo;t bring myself to finish it.</p>
+
+<p>I enjoy tasting new beers, but for some reason the tasting write-up process has become tedious. While I <em>think</em> my palate is experienced, I believe it lacks the training needed to produce quality tasting notes. For these reasons I have decided to take a break. Unless I have the opportunity to taste a rare beer (e.g. Savor collaboration beers) or gather the needed energy to organize another Showdown, tastings posts will stop. Perhaps when I have passed the Cicerone test I&rsquo;ll continue regular write-ups.</p>
+
+<p>Going forward I will concentrate on topics more focused on beer-related technology and data. Long story short: Posts will continue but the topics will change, hopefully for the better. Cheers!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Choosing a Hop Variety To Grow]]></title>
@@ -3302,96 +3315,6 @@ Even though the wait was long the beer was worth it. The ones we tried were a bi
     <content type="html"><![CDATA[<p>Today I am launching the Beer Kingdom, a group of visualizations to help us better understand the various beer styles. The first of these visualizations is the <a href="http://brewpuppy.github.io/beer-kingdom/bjcp-style-tree/">BJCP Style Tree</a>. Future visualizations will show the relationship between the different beer styles.</p>
 
 <p>While I frequently find myself visiting the BJCP website for style information, I also frequently find myself wishing there was a better way to navigate the style data. The BJCP website is full of valuable information but the user interface is stuck in the 1990s. For this reason I have designed the BJCP Style Tree as a smoother, graphical way to access the style information. All the style information can be found here but in a way which takes advantage of today&rsquo;s web technology.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tasting of Samuel Adams - Tasman Red]]></title>
-    <link href="http://brewpuppy.github.io/blog/2013/04/21/samuel-adams-tasman-red/"/>
-    <updated>2013-04-21T00:00:00-05:00</updated>
-    <id>http://brewpuppy.github.io/blog/2013/04/21/samuel-adams-tasman-red</id>
-    <content type="html"><![CDATA[<p><img class="right" src="http://brewpuppy.github.io/images/blog/2013/04/samuel-adams-tasman-red/outside.jpg" width="300"> This wily red IPA gets its character from the Tasmanian hops that are full of grapefruit, pine, and earthy notes creating a bold flavor that threads throughout the taste.  The hops are balanced by a core of roasty malts that give this brew body and richness with hints of toffee.  This flavorful brew is rounded and smooth with a dry and citrusy hop finish.</p>
-
-<ul>
-<li>Batch Number: 1</li>
-<li>Hops:
-
-<ul>
-<li>Topaz</li>
-<li>Galaxy</li>
-</ul>
-</li>
-<li>Malts:
-
-<ul>
-<li>Samuel Adams two-row pale malt blend</li>
-<li>Special B</li>
-<li>Caramel 60</li>
-<li>Carafa III</li>
-</ul>
-</li>
-<li>Yeast: Top-fermenting Ale</li>
-<li>Color: Rich garnet, 45 SRM</li>
-<li>ABV: 6.5%</li>
-<li>IBUs: 50</li>
-</ul>
-
-
-<!-- More -->
-
-
-<p>Brewer&rsquo;s Tasting Notes:</p>
-
-<ul>
-<li>While no grapefruit was used in this beer, the use of Topaz and Galaxy hops give this beer a bold hop character taste/aroma that can be compared to a grapefruit.</li>
-<li>No caramel was used in this beer, though roasty caramel notes can be picked up through a blend of different malts.</li>
-</ul>
-
-
-<h3>What I Expected</h3>
-
-<p>Jim Koch has a great <a href="http://www.samueladams.com/craft-beers/tasman-red">tasting video</a> which I used to base my expectations. It&rsquo;s only a few minutes long but offers great insight into this particular beer.</p>
-
-<blockquote><p>A big malt front to it and a big hop finish.</p><footer><strong>Jim Koch, Tasting Video</strong> <cite><a href='http://www.samueladams.com/craft-beers/tasman-red'>Tasman Red</a></cite></footer></blockquote>
-
-
-<p>The use of IPA in the name immediately puts this in the style India Pale Ale. An ABV under 7.5% rules out 14C Imperial IPA. The special malts used in this beer push the SRM far above either the English IPA (14A) or American IPA (14B) styles. With all the malts in this beer it doesn&rsquo;t look like it will fit under any of the classic styles. If I had to pick one to judge it on though, it would be American IPA for the Aroma and Flavor described. I&rsquo;m a big fan of hops from Down Under (oh Nelson Sauvin, I want to go there) so I&rsquo;m excited these are the highlight of the beer.</p>
-
-<ul>
-<li>Appearance &ndash; Deep ruby red which really come across as a beer which takes malt seriously; the color should reflect this idea. Malt flavors are not joking matter folks.</li>
-<li>Aroma &ndash; I&rsquo;m looking for the malts to make an appearance and not be overpowered by the hops. Specific smells I&rsquo;d like to see (smell?) are caramel and toffee as well as grapefruit and pine from the hops.</li>
-<li>Flavor &ndash; The flavor should be exactly what I smelled. sweet caramel toffee with some roasted notes balanced by lots of grapefruit and citrus along with spruce and pine for a resiny finish.</li>
-</ul>
-
-
-<h3>Tasting Notes</h3>
-
-<ul>
-<li>Appearance &ndash; Deep red, a bit hazy. Pours beautifully with a full creamy head.</li>
-<li>Aroma &ndash; Definitely picking up on the citrus and pine of the hops but the malt was lost to me until the beer set for a few minutes, and only then did caramel flavors dominated the aroma.</li>
-<li>Flavor &ndash; Where the aroma failed, the taste certainly delivered. Roasty and caramel malt flavors which transitioned to the resinous hops which then transitioned into a grapefruit bitterness on the end. After the first few drinks when my palate was used to the bitterness the malt flavors really started to come and took a front seat.</li>
-</ul>
-
-
-<h3>Conclusion: Excellent (40 / 45)</h3>
-
-<p><img class="right" src="http://brewpuppy.github.io/images/blog/2013/04/samuel-adams-tasman-red/inside.jpg" width="350" title="Inside Facing North" alt="Picture of beer in glass inside with northern light"></p>
-
-<h4>Appearance: 2 / 3</h4>
-
-<p>The color was exactly what I expected though the lack of clarity was a bit surprising coming from a professional such as Samuel Adams.</p>
-
-<h4>Aroma: 10 / 12</h4>
-
-<p>At first I was a bit disappointed with the aroma being hop-centric and out of the gate this beer smells like any other American IPA. However, when I smelled again after sitting a while, the malts were there for my enjoyment.</p>
-
-<h4>Flavor: 19 / 20</h4>
-
-<p>Two words: flavor delivers. This beer lives up to the promise of big malt front and a big hop finish; exactly what I expected. The caramel and resin flavors blend wonderfully. The lower IBU makes it very drinkable as only the malts linger on the palate. I would recommend this beer drank at a warmer temperature to fully appreciate the malt flavors. Maybe not as much grapefruit as what I was expecting so I docked it one point.</p>
-
-<h4>Overall Impression: 9 / 10</h4>
-
-<p>A complex beer which felt like a three-stage rocket to drink. This is something I would definitely buy again when I want a one-off IPA. I would recommend this beer to IPA drinkers who are looking for something different. I would <strong>not</strong> recommend this beer to Red Ale drinkers unless you&rsquo;re feeling particularly bold. While there are pleasant malt flavors the hops dominate this beer as any true IPA should and is nothing similar to the styles you may be used to drinking.</p>
 ]]></content>
   </entry>
   
