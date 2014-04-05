@@ -4,7 +4,7 @@
   <title><![CDATA[BREW PUPPY dot NET]]></title>
   <link href="http://brewpuppy.github.io/atom.xml" rel="self"/>
   <link href="http://brewpuppy.github.io/"/>
-  <updated>2014-03-31T21:24:18-05:00</updated>
+  <updated>2014-04-05T11:34:47-05:00</updated>
   <id>http://brewpuppy.github.io/</id>
   <author>
     <name><![CDATA[Luke Dodge]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[BJCP Style Data: JSON Format Update]]></title>
+    <link href="http://brewpuppy.github.io/blog/2014/04/05/bjcp-style-data-json-format-update/"/>
+    <updated>2014-04-05T11:27:22-05:00</updated>
+    <id>http://brewpuppy.github.io/blog/2014/04/05/bjcp-style-data-json-format-update</id>
+    <content type="html"><![CDATA[<p>All JSON files have been updated to follow <a href="https://google-styleguide.googlecode.com/svn/trunk/jsoncstyleguide.xml">Revision 0.9 Google JSON Style Guide</a> and all future JSON files will follow these guidelines. While the standard structure of the data files remains the same, almost all property names have been changed. Prior property names followed an ascetic feel, instead of a functional approach.</p>
+
+<p>There were three primary changes for this update:</p>
+
+<ul>
+<li><strong>Property Name Formats</strong> &ndash; These guidelines mirror the guidelines for naming JavaScript identifiers. This allows JavaScript clients to access properties using dot notation.</li>
+<li><strong>Plural Property Names for Arrays</strong> &ndash; Arrays usually contain multiple items, and a plural property name reflects this.</li>
+<li><strong>Quotes Removed from Property Values</strong> &ndash; Property values truncated by parsers.</li>
+</ul>
+
+
+<p>These changes should make the data more developer friendly when used by JavaScript applications.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tasting Notes Hiatus]]></title>
@@ -3304,17 +3324,6 @@ Even though the wait was long the beer was worth it. The ones we tried were a bi
     <updated>2013-05-29T00:00:00-05:00</updated>
     <id>http://brewpuppy.github.io/blog/2013/05/29/release-bjcp-style-data</id>
     <content type="html"><![CDATA[<p>Today I am launching the <a href="https://github.com/brewpuppy/bjcp-style-data">BJCP Style Data</a> repository, a collection of data files containing information from the official BJCP style guidelines. While the <a href="http://www.bjcp.org/stylecenter.php">BJCP website</a> contains a wealth of beer style information, none of the provided files are conducive to data processing. The goal of this project is to provide the official BJCP style guidelines in multiple data formats which can be easily used in software applications.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Release: BJCP Style Tree]]></title>
-    <link href="http://brewpuppy.github.io/blog/2013/05/19/release-bjcp-style-tree/"/>
-    <updated>2013-05-19T00:00:00-05:00</updated>
-    <id>http://brewpuppy.github.io/blog/2013/05/19/release-bjcp-style-tree</id>
-    <content type="html"><![CDATA[<p>Today I am launching the Beer Kingdom, a group of visualizations to help us better understand the various beer styles. The first of these visualizations is the <a href="http://brewpuppy.github.io/beer-kingdom/bjcp-style-tree/">BJCP Style Tree</a>. Future visualizations will show the relationship between the different beer styles.</p>
-
-<p>While I frequently find myself visiting the BJCP website for style information, I also frequently find myself wishing there was a better way to navigate the style data. The BJCP website is full of valuable information but the user interface is stuck in the 1990s. For this reason I have designed the BJCP Style Tree as a smoother, graphical way to access the style information. All the style information can be found here but in a way which takes advantage of today&rsquo;s web technology.</p>
 ]]></content>
   </entry>
   

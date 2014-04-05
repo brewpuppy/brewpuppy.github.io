@@ -4,7 +4,7 @@
   <title><![CDATA[Category: BJCP Style Data | BREW PUPPY dot NET]]></title>
   <link href="http://brewpuppy.github.io/blog/categories/bjcp-style-data/atom.xml" rel="self"/>
   <link href="http://brewpuppy.github.io/"/>
-  <updated>2014-03-31T21:24:18-05:00</updated>
+  <updated>2014-04-05T11:34:47-05:00</updated>
   <id>http://brewpuppy.github.io/</id>
   <author>
     <name><![CDATA[Luke Dodge]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[BJCP Style Data: JSON Format Update]]></title>
+    <link href="http://brewpuppy.github.io/blog/2014/04/05/bjcp-style-data-json-format-update/"/>
+    <updated>2014-04-05T11:27:22-05:00</updated>
+    <id>http://brewpuppy.github.io/blog/2014/04/05/bjcp-style-data-json-format-update</id>
+    <content type="html"><![CDATA[<p>All JSON files have been updated to follow <a href="https://google-styleguide.googlecode.com/svn/trunk/jsoncstyleguide.xml">Revision 0.9 Google JSON Style Guide</a> and all future JSON files will follow these guidelines. While the standard structure of the data files remains the same, almost all property names have been changed. Prior property names followed an ascetic feel, instead of a functional approach.</p>
+
+<p>There were three primary changes for this update:</p>
+
+<ul>
+<li><strong>Property Name Formats</strong> &ndash; These guidelines mirror the guidelines for naming JavaScript identifiers. This allows JavaScript clients to access properties using dot notation.</li>
+<li><strong>Plural Property Names for Arrays</strong> &ndash; Arrays usually contain multiple items, and a plural property name reflects this.</li>
+<li><strong>Quotes Removed from Property Values</strong> &ndash; Property values truncated by parsers.</li>
+</ul>
+
+
+<p>These changes should make the data more developer friendly when used by JavaScript applications.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Release: BJCP Style Data]]></title>

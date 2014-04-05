@@ -3,9 +3,9 @@ $.getJSON("/data/bjcp-style-data/json/style-data.min.json", function(json) {
     $.each(json, function() {
 
         $.each(this, function() {
-            if (this.subcategory) {
+            if (this.subcategories) {
                 var number = this.number;
-                $.each(this.subcategory, function() {
+                $.each(this.subcategories, function() {
                     addModal((number + this.letter), this.name, generateBody(this));
                 });
             }
@@ -21,19 +21,25 @@ $.getJSON("/data/bjcp-style-data/json/style-data.min.json", function(json) {
 function generateBody(style) {
 
     var body = "";
+    var guidelineTitles = {};
+    guidelineTitles['overallImpression'] = 'Overall Impression';
+    guidelineTitles['baseStyle'] = 'Base Style';
 
     $.each(style.guidelines, function(key, val) {
-        if (key == "Vital Statistics") {
+        if (key == "vitalStatistics") {
             body += "<h3>Vital Statistics</h3>";
             body += "<dl class=\"dl-horizontal\">";
             $.each(val, function(key, val) {
-                body += "<dt>" + key + "</dt>";
+                body += "<dt>" + key.toUpperCase() + "</dt>";
                 body += "<dd>" + val + "</dd>";
             });
             body += "</dl>";
         }
         else {
-            body += "<h3>" + key + "</h3><p>" + val + "</p>";
+            var title = ""
+            if (guidelineTitles[key]) { title = guidelineTitles[key]}
+            else { title = key.charAt(0).toUpperCase() + key.slice(1); }
+            body += "<h3>" + title + "</h3><p>" + val + "</p>";
         }
     });
 
@@ -41,7 +47,7 @@ function generateBody(style) {
     body += "<h3>Commercial Examples</h3>";
     body += "<ul>";
     var ce_note = "";
-    $.each(style["Commercial Examples"], function() {
+    $.each(style["commercialExamples"], function() {
         if (this.name) {
             body += "<li>" + this.name + "</li>";
             if (this.note) {
