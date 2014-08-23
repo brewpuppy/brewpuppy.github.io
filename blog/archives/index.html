@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
   <title>Blog Archive - BREW PUPPY dot NET</title>
@@ -20,24 +18,25 @@
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="BREW PUPPY dot NET" type="application/atom+xml">
 
-  <link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/spacelab/bootstrap.min.css">
-
-
   <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-32307763-1']);
-    _gaq.push(['_trackPageview']);
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+<!-- <link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"> -->
+<link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/sandstone/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+  
+   <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-32307763-1', 'auto');
+    ga('send', 'pageview');
+
   </script>
 
 
@@ -60,7 +59,7 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li >
-                    <a href="/">Blog</a>
+                    <a rel="index" href="/">Blog</a>
                 </li>
                 <li class="active">
                     <a href="/blog/archives">Archives</a>
@@ -109,16 +108,19 @@
         </header>
       
       <div class="entry-content">
-        <div id="blog-archives">
+        <div id="blog-archives" itemscope itemtype="http://schema.org/Blog">
+<meta itemprop="name" content="BREW PUPPY dot NET" />
+<meta itemprop="description" content="Can computer science, existing little more than a century, be successfully applied to the millenia old practice of brewing? This intersection of technologies is what Brew Puppy was created to explore." />
+<meta itemprop="url" content="http://brewpuppy.github.io" />
 
 
 
   
   <h2>2014</h2>
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2014/04/05/bjcp-style-data-json-format-update/">BJCP Style Data: JSON Format Update</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2014/04/05/bjcp-style-data-json-format-update/" itemprop="url">BJCP Style Data: JSON Format Update</a></h1>
 <p class="meta text-muted">
   
 
@@ -133,13 +135,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-04-05T11:27:22-05:00" pubdate data-updated="true">Apr 5<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-04-05T11:27:22-05:00"  data-updated="true" itemprop="datePublished dateCreated">05 Apr 2014</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/bjcp-style-data/'>BJCP Style Data</a>
+    <a class='category' href='/blog/categories/bjcp-style-data/'>bjcp style data</a>
   
 </span>
 
@@ -150,9 +152,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2014/03/31/tasting-notes-hiatus/">Tasting Notes Hiatus</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2014/03/31/tasting-notes-hiatus/" itemprop="url">Tasting Notes Hiatus</a></h1>
 <p class="meta text-muted">
   
 
@@ -167,13 +169,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-03-31T21:22:09-05:00" pubdate data-updated="true">Mar 31<span>st</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-03-31T21:22:09-05:00"  data-updated="true" itemprop="datePublished dateCreated">31 Mar 2014</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -184,9 +186,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2014/03/24/choosing-a-hop-variety-to-grow/">Choosing a Hop Variety To Grow</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2014/03/24/choosing-a-hop-variety-to-grow/" itemprop="url">Choosing a Hop Variety to Grow</a></h1>
 <p class="meta text-muted">
   
 
@@ -201,13 +203,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-03-24T00:00:00-05:00" pubdate data-updated="true">Mar 24<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-03-24T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">24 Mar 2014</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/hops/'>Hops</a>
+    <a class='category' href='/blog/categories/hops/'>hops</a>
   
 </span>
 
@@ -218,9 +220,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2014/02/24/confluence-brewing-company-des-moines-iowa/">Confluence Brewing Company - Des Moines, Iowa</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2014/02/24/confluence-brewing-company-des-moines-iowa/" itemprop="url">Confluence Brewing Company - Des Moines, Iowa</a></h1>
 <p class="meta text-muted">
   
 
@@ -235,13 +237,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-02-24T00:00:00-06:00" pubdate data-updated="true">Feb 24<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-02-24T00:00:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">24 Feb 2014</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/brewery-visit/'>Brewery Visit</a>, <a class='category' href='/blog/categories/confluence-brewing-company/'>Confluence Brewing Company</a>, <a class='category' href='/blog/categories/iowa/'>Iowa</a>
+    <a class='category' href='/blog/categories/brewery-visit/'>brewery visit</a>, <a class='category' href='/blog/categories/confluence-brewing-company/'>confluence brewing company</a>, <a class='category' href='/blog/categories/iowa/'>iowa</a>
   
 </span>
 
@@ -252,9 +254,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2014/02/07/boulevard-chocolate-ale/">Tasting of Boulevard - Chocolate Ale</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2014/02/07/boulevard-chocolate-ale/" itemprop="url">Tasting of Boulevard - Chocolate Ale</a></h1>
 <p class="meta text-muted">
   
 
@@ -269,13 +271,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-02-07T00:00:00-06:00" pubdate data-updated="true">Feb 7<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-02-07T00:00:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">07 Feb 2014</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/boulevard/'>Boulevard</a>, <a class='category' href='/blog/categories/smokestack/'>Smokestack</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/boulevard/'>boulevard</a>, <a class='category' href='/blog/categories/smokestack/'>smokestack</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -286,9 +288,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2014/01/07/boulevard-rye-on-rye/">Tasting of Boulevard - Rye-On-Rye</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2014/01/07/boulevard-rye-on-rye/" itemprop="url">Tasting of Boulevard - Rye-On-Rye</a></h1>
 <p class="meta text-muted">
   
 
@@ -303,13 +305,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-01-07T00:00:00-06:00" pubdate data-updated="true">Jan 7<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-01-07T00:00:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">07 Jan 2014</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/boulevard/'>Boulevard</a>, <a class='category' href='/blog/categories/smokestack/'>Smokestack</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/boulevard/'>boulevard</a>, <a class='category' href='/blog/categories/smokestack/'>smokestack</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -323,9 +325,9 @@
   
   <h2>2013</h2>
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/12/22/glacier-hops/">Glacier Hops</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/12/22/glacier-hops/" itemprop="url">Glacier Hops</a></h1>
 <p class="meta text-muted">
   
 
@@ -340,13 +342,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-12-22T00:00:00-06:00" pubdate data-updated="true">Dec 22<span>nd</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-12-22T00:00:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">22 Dec 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/hops/'>Hops</a>
+    <a class='category' href='/blog/categories/hops/'>hops</a>
   
 </span>
 
@@ -357,9 +359,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/11/07/what-i-learned-tasting-17-different-pumpkin-beers/">What I Learned Tasting 17 Different Pumpkin Beers</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/11/07/what-i-learned-tasting-17-different-pumpkin-beers/" itemprop="url">What I Learned Tasting 17 Different Pumpkin Beers</a></h1>
 <p class="meta text-muted">
   
 
@@ -374,7 +376,7 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-11-07T00:00:00-06:00" pubdate data-updated="true">Nov 7<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-11-07T00:00:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">07 Nov 2013</time>
   
 
 
@@ -384,9 +386,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/10/31/pumpkin-beer-showdown-finals/">Pumpkin Beer Showdown: A Winner is Chosen</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/10/31/pumpkin-beer-showdown-finals/" itemprop="url">Pumpkin Beer Showdown: A Winner Is Chosen</a></h1>
 <p class="meta text-muted">
   
 
@@ -401,13 +403,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-10-31T00:00:00-05:00" pubdate data-updated="true">Oct 31<span>st</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-10-31T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">31 Oct 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/blue-moon/'>Blue Moon</a>, <a class='category' href='/blog/categories/buffalo-bill/'>Buffalo Bill</a>, <a class='category' href='/blog/categories/ofallon/'>O&#8217;Fallon</a>, <a class='category' href='/blog/categories/pumpkin/'>Pumpkin</a>, <a class='category' href='/blog/categories/samuel-adams/'>Samuel Adams</a>, <a class='category' href='/blog/categories/schlafly/'>Schlafly</a>, <a class='category' href='/blog/categories/showdown/'>Showdown</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/blue-moon/'>blue moon</a>, <a class='category' href='/blog/categories/buffalo-bill/'>buffalo bill</a>, <a class='category' href='/blog/categories/ofallon/'>o&#8217;fallon</a>, <a class='category' href='/blog/categories/pumpkin/'>pumpkin</a>, <a class='category' href='/blog/categories/samuel-adams/'>samuel adams</a>, <a class='category' href='/blog/categories/schlafly/'>schlafly</a>, <a class='category' href='/blog/categories/showdown/'>showdown</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -418,9 +420,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/10/21/pumpkin-beer-showdown-r4/">Pumpkin Beer Showdown: Round 4</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/10/21/pumpkin-beer-showdown-r4/" itemprop="url">Pumpkin Beer Showdown: Round 4</a></h1>
 <p class="meta text-muted">
   
 
@@ -435,13 +437,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-10-21T00:00:00-05:00" pubdate data-updated="true">Oct 21<span>st</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-10-21T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">21 Oct 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/mothers/'>Mother&#8217;s</a>, <a class='category' href='/blog/categories/pumpkin/'>Pumpkin</a>, <a class='category' href='/blog/categories/rogue/'>Rogue</a>, <a class='category' href='/blog/categories/showdown/'>Showdown</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>, <a class='category' href='/blog/categories/woodchuck/'>Woodchuck</a>
+    <a class='category' href='/blog/categories/mothers/'>mother&#8217;s</a>, <a class='category' href='/blog/categories/pumpkin/'>pumpkin</a>, <a class='category' href='/blog/categories/rogue/'>rogue</a>, <a class='category' href='/blog/categories/showdown/'>showdown</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>, <a class='category' href='/blog/categories/woodchuck/'>woodchuck</a>
   
 </span>
 
@@ -452,9 +454,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/10/07/pumpkin-beer-showdown-r3/">Pumpkin Beer Showdown: Round 3</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/10/07/pumpkin-beer-showdown-r3/" itemprop="url">Pumpkin Beer Showdown: Round 3</a></h1>
 <p class="meta text-muted">
   
 
@@ -469,13 +471,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-10-07T00:00:00-05:00" pubdate data-updated="true">Oct 7<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-10-07T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">07 Oct 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/bridgeport/'>BridgePort</a>, <a class='category' href='/blog/categories/california-cider-company/'>California Cider Company</a>, <a class='category' href='/blog/categories/pumpkin/'>Pumpkin</a>, <a class='category' href='/blog/categories/samuel-adams/'>Samuel Adams</a>, <a class='category' href='/blog/categories/shipyard/'>Shipyard</a>, <a class='category' href='/blog/categories/showdown/'>Showdown</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/bridgeport/'>bridgeport</a>, <a class='category' href='/blog/categories/california-cider-company/'>california cider company</a>, <a class='category' href='/blog/categories/pumpkin/'>pumpkin</a>, <a class='category' href='/blog/categories/samuel-adams/'>samuel adams</a>, <a class='category' href='/blog/categories/shipyard/'>shipyard</a>, <a class='category' href='/blog/categories/showdown/'>showdown</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -486,9 +488,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/09/30/pumpkin-beer-showdown-r2/">Pumpkin Beer Showdown: Round 2</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/09/30/pumpkin-beer-showdown-r2/" itemprop="url">Pumpkin Beer Showdown: Round 2</a></h1>
 <p class="meta text-muted">
   
 
@@ -503,13 +505,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-09-30T00:00:00-05:00" pubdate data-updated="true">Sep 30<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-09-30T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">30 Sep 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/blue-moon/'>Blue Moon</a>, <a class='category' href='/blog/categories/buffalo-mill/'>Buffalo Mill</a>, <a class='category' href='/blog/categories/mendocino/'>Mendocino</a>, <a class='category' href='/blog/categories/pumpkin/'>Pumpkin</a>, <a class='category' href='/blog/categories/shipyard/'>Shipyard</a>, <a class='category' href='/blog/categories/shock-top/'>Shock Top</a>, <a class='category' href='/blog/categories/showdown/'>Showdown</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/blue-moon/'>blue moon</a>, <a class='category' href='/blog/categories/buffalo-mill/'>buffalo mill</a>, <a class='category' href='/blog/categories/mendocino/'>mendocino</a>, <a class='category' href='/blog/categories/pumpkin/'>pumpkin</a>, <a class='category' href='/blog/categories/shipyard/'>shipyard</a>, <a class='category' href='/blog/categories/shock-top/'>shock top</a>, <a class='category' href='/blog/categories/showdown/'>showdown</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -520,9 +522,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/09/23/pumpkin-beer-showdown-r1/">Pumpkin Beer Showdown: Round 1</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/09/23/pumpkin-beer-showdown-r1/" itemprop="url">Pumpkin Beer Showdown: Round 1</a></h1>
 <p class="meta text-muted">
   
 
@@ -537,13 +539,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-09-23T00:00:00-05:00" pubdate data-updated="true">Sep 23<span>rd</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-09-23T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">23 Sep 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/horny-goat/'>Horny Goat</a>, <a class='category' href='/blog/categories/new-belgium/'>New Belgium</a>, <a class='category' href='/blog/categories/ofallon/'>O&#8217;Fallon</a>, <a class='category' href='/blog/categories/pumpkin/'>Pumpkin</a>, <a class='category' href='/blog/categories/samuel-adams/'>Samuel Adams</a>, <a class='category' href='/blog/categories/schlafly/'>Schlafly</a>, <a class='category' href='/blog/categories/showdown/'>Showdown</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/horny-goat/'>horny goat</a>, <a class='category' href='/blog/categories/new-belgium/'>new belgium</a>, <a class='category' href='/blog/categories/ofallon/'>o&#8217;fallon</a>, <a class='category' href='/blog/categories/pumpkin/'>pumpkin</a>, <a class='category' href='/blog/categories/samuel-adams/'>samuel adams</a>, <a class='category' href='/blog/categories/schlafly/'>schlafly</a>, <a class='category' href='/blog/categories/showdown/'>showdown</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -554,9 +556,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/09/08/boulevard-sierra-nevada-terra-incognita/">Tasting of Boulevard / Sierra Nevada - Terra Incognita</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/09/08/boulevard-sierra-nevada-terra-incognita/" itemprop="url">Tasting of Boulevard / Sierra Nevada - Terra Incognita</a></h1>
 <p class="meta text-muted">
   
 
@@ -571,13 +573,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-09-08T00:00:00-05:00" pubdate data-updated="true">Sep 8<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-09-08T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">08 Sep 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/boulevard/'>Boulevard</a>, <a class='category' href='/blog/categories/sierra-nevada/'>Sierra Nevada</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/boulevard/'>boulevard</a>, <a class='category' href='/blog/categories/sierra-nevada/'>sierra nevada</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -588,9 +590,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/08/27/new-york-limited-brooklyn-ommegang-saranac/">Tasting of New York Limited - Brooklyn Brewery, Brewery Ommegang, Saranac Brewery</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/08/27/new-york-limited-brooklyn-ommegang-saranac/" itemprop="url">Tasting of New York Limited - Brooklyn Brewery, Brewery Ommegang, Saranac Brewery</a></h1>
 <p class="meta text-muted">
   
 
@@ -605,13 +607,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-08-27T00:00:00-05:00" pubdate data-updated="true">Aug 27<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-08-27T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">27 Aug 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/brooklyn-brewery/'>Brooklyn Brewery</a>, <a class='category' href='/blog/categories/ommegang/'>Ommegang</a>, <a class='category' href='/blog/categories/savor/'>SAVOR</a>, <a class='category' href='/blog/categories/saranac/'>Saranac</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/brooklyn-brewery/'>brooklyn brewery</a>, <a class='category' href='/blog/categories/ommegang/'>ommegang</a>, <a class='category' href='/blog/categories/saranac/'>saranac</a>, <a class='category' href='/blog/categories/savor/'>savor</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -622,9 +624,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/07/07/samuel-adams-merry-mischief/">Tasting of Samuel Adams - Merry Mischief</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/07/07/samuel-adams-merry-mischief/" itemprop="url">Tasting of Samuel Adams - Merry Mischief</a></h1>
 <p class="meta text-muted">
   
 
@@ -639,13 +641,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-07-07T00:00:00-05:00" pubdate data-updated="true">Jul 7<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-07-07T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">07 Jul 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/samuel-adams/'>Samuel Adams</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/samuel-adams/'>samuel adams</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -656,9 +658,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/06/17/an-unexpected-encounter/">An Unexpected Encounter</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/06/17/an-unexpected-encounter/" itemprop="url">An Unexpected Encounter</a></h1>
 <p class="meta text-muted">
   
 
@@ -673,13 +675,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-06-17T00:00:00-05:00" pubdate data-updated="true">Jun 17<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-06-17T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">17 Jun 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/the-power-of-beer/'>The Power of Beer</a>
+    <a class='category' href='/blog/categories/the-power-of-beer/'>the power of beer</a>
   
 </span>
 
@@ -690,9 +692,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/06/16/brooklyn-brewery-brooklyn-new-york/">Brooklyn Brewery - Brooklyn, New York</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/06/16/brooklyn-brewery-brooklyn-new-york/" itemprop="url">Brooklyn Brewery - Brooklyn, New York</a></h1>
 <p class="meta text-muted">
   
 
@@ -707,13 +709,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-06-16T00:00:00-05:00" pubdate data-updated="true">Jun 16<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-06-16T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">16 Jun 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/brewery-visit/'>Brewery Visit</a>, <a class='category' href='/blog/categories/brooklyn-brewery/'>Brooklyn Brewery</a>, <a class='category' href='/blog/categories/new-york/'>New York</a>
+    <a class='category' href='/blog/categories/brewery-visit/'>brewery visit</a>, <a class='category' href='/blog/categories/brooklyn-brewery/'>brooklyn brewery</a>, <a class='category' href='/blog/categories/new-york/'>new york</a>
   
 </span>
 
@@ -724,9 +726,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/06/15/savor-2013/">SAVOR: An American Craft Beer & Food Experience</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/06/15/savor-2013/" itemprop="url">SAVOR: An American Craft Beer & Food Experience</a></h1>
 <p class="meta text-muted">
   
 
@@ -741,13 +743,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-06-15T00:00:00-05:00" pubdate data-updated="true">Jun 15<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-06-15T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">15 Jun 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/events/'>Events</a>, <a class='category' href='/blog/categories/new-york/'>New York</a>, <a class='category' href='/blog/categories/savor/'>SAVOR</a>
+    <a class='category' href='/blog/categories/events/'>events</a>, <a class='category' href='/blog/categories/new-york/'>new york</a>, <a class='category' href='/blog/categories/savor/'>savor</a>
   
 </span>
 
@@ -758,9 +760,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/05/29/release-bjcp-style-data/">Release: BJCP Style Data</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/05/29/release-bjcp-style-data/" itemprop="url">Release: BJCP Style Data</a></h1>
 <p class="meta text-muted">
   
 
@@ -775,13 +777,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-05-29T00:00:00-05:00" pubdate data-updated="true">May 29<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-05-29T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">29 May 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/bjcp-style-data/'>BJCP Style Data</a>
+    <a class='category' href='/blog/categories/bjcp-style-data/'>bjcp style data</a>
   
 </span>
 
@@ -792,9 +794,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/05/19/release-bjcp-style-tree/">Release: BJCP Style Tree</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/05/19/release-bjcp-style-tree/" itemprop="url">Release: BJCP Style Tree</a></h1>
 <p class="meta text-muted">
   
 
@@ -809,13 +811,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-05-19T00:00:00-05:00" pubdate data-updated="true">May 19<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-05-19T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">19 May 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/bjcp-style-tree/'>BJCP Style Tree</a>, <a class='category' href='/blog/categories/beer-kingdom/'>Beer Kingdom</a>, <a class='category' href='/blog/categories/visualizations/'>Visualizations</a>
+    <a class='category' href='/blog/categories/beer-kingdom/'>beer kingdom</a>, <a class='category' href='/blog/categories/bjcp-style-tree/'>bjcp style tree</a>, <a class='category' href='/blog/categories/visualizations/'>visualizations</a>
   
 </span>
 
@@ -826,9 +828,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/04/21/samuel-adams-tasman-red/">Tasting of Samuel Adams - Tasman Red</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/04/21/samuel-adams-tasman-red/" itemprop="url">Tasting of Samuel Adams - Tasman Red</a></h1>
 <p class="meta text-muted">
   
 
@@ -843,13 +845,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-04-21T00:00:00-05:00" pubdate data-updated="true">Apr 21<span>st</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-04-21T00:00:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">21 Apr 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/samuel-adams/'>Samuel Adams</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/samuel-adams/'>samuel adams</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -860,9 +862,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/04/10/raspberry-pi-received/">Raspberry Pi Received!</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/04/10/raspberry-pi-received/" itemprop="url">Raspberry Pi Received!</a></h1>
 <p class="meta text-muted">
   
 
@@ -877,13 +879,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-04-10T07:29:00-05:00" pubdate data-updated="true">Apr 10<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-04-10T07:29:00-05:00"  data-updated="true" itemprop="datePublished dateCreated">10 Apr 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/raspberry-pi/'>Raspberry Pi</a>
+    <a class='category' href='/blog/categories/raspberry-pi/'>raspberry pi</a>
   
 </span>
 
@@ -894,9 +896,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/02/28/raspberry-pi-purchase/">Raspberry Pi Purchase</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/02/28/raspberry-pi-purchase/" itemprop="url">Raspberry Pi Purchase</a></h1>
 <p class="meta text-muted">
   
 
@@ -911,13 +913,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-28T13:20:00-06:00" pubdate data-updated="true">Feb 28<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-28T13:20:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">28 Feb 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/raspberry-pi/'>Raspberry Pi</a>
+    <a class='category' href='/blog/categories/raspberry-pi/'>raspberry pi</a>
   
 </span>
 
@@ -928,9 +930,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/02/18/raccoon-river-brewing-company-des-moines-iowa/">Raccoon River Brewing Company - Des Moines, Iowa</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/02/18/raccoon-river-brewing-company-des-moines-iowa/" itemprop="url">Raccoon River Brewing Company - Des Moines, Iowa</a></h1>
 <p class="meta text-muted">
   
 
@@ -945,13 +947,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-18T14:30:00-06:00" pubdate data-updated="true">Feb 18<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-18T14:30:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">18 Feb 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/brewery-visit/'>Brewery Visit</a>, <a class='category' href='/blog/categories/iowa/'>Iowa</a>, <a class='category' href='/blog/categories/racoon-river-brewing-company/'>Racoon River Brewing Company</a>
+    <a class='category' href='/blog/categories/brewery-visit/'>brewery visit</a>, <a class='category' href='/blog/categories/iowa/'>iowa</a>, <a class='category' href='/blog/categories/racoon-river-brewing-company/'>racoon river brewing company</a>
   
 </span>
 
@@ -962,9 +964,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/02/18/olde-main-brewing-company-ames-iowa/">Olde Main Brewing Company - Ames, Iowa</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/02/18/olde-main-brewing-company-ames-iowa/" itemprop="url">Olde Main Brewing Company - Ames, Iowa</a></h1>
 <p class="meta text-muted">
   
 
@@ -979,13 +981,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-18T12:30:00-06:00" pubdate data-updated="true">Feb 18<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-18T12:30:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">18 Feb 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/brewery-visit/'>Brewery Visit</a>, <a class='category' href='/blog/categories/iowa/'>Iowa</a>, <a class='category' href='/blog/categories/olde-main/'>Olde Main</a>
+    <a class='category' href='/blog/categories/brewery-visit/'>brewery visit</a>, <a class='category' href='/blog/categories/iowa/'>iowa</a>, <a class='category' href='/blog/categories/olde-main/'>olde main</a>
   
 </span>
 
@@ -996,9 +998,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/02/16/summit-brewing-company-st-paul-minnesota/">Summit Brewing Company - St Paul, Minnesota</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/02/16/summit-brewing-company-st-paul-minnesota/" itemprop="url">Summit Brewing Company - St Paul, Minnesota</a></h1>
 <p class="meta text-muted">
   
 
@@ -1013,13 +1015,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-16T18:30:00-06:00" pubdate data-updated="true">Feb 16<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-16T18:30:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">16 Feb 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/brewery-visit/'>Brewery Visit</a>, <a class='category' href='/blog/categories/minnesota/'>Minnesota</a>, <a class='category' href='/blog/categories/summit/'>Summit</a>
+    <a class='category' href='/blog/categories/brewery-visit/'>brewery visit</a>, <a class='category' href='/blog/categories/minnesota/'>minnesota</a>, <a class='category' href='/blog/categories/summit/'>summit</a>
   
 </span>
 
@@ -1030,9 +1032,9 @@
 
 
 
-<article class="page-header">
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
   
-<h1><a href="/blog/2013/02/14/court-avenue-brewing-company-des-moines-iowa/">Court Avenue Brewing Company - Des Moines, Iowa</a></h1>
+<h1 itemprop="name headline"><a href="/blog/2013/02/14/court-avenue-brewing-company-des-moines-iowa/" itemprop="url">Court Avenue Brewing Company - Des Moines, Iowa</a></h1>
 <p class="meta text-muted">
   
 
@@ -1047,13 +1049,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-14T15:20:00-06:00" pubdate data-updated="true">Feb 14<span>th</span>, 2013</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2013-02-14T15:20:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">14 Feb 2013</time>
   
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/brewery-visit/'>Brewery Visit</a>, <a class='category' href='/blog/categories/court-avenue/'>Court Avenue</a>, <a class='category' href='/blog/categories/iowa/'>Iowa</a>
+    <a class='category' href='/blog/categories/brewery-visit/'>brewery visit</a>, <a class='category' href='/blog/categories/court-avenue/'>court avenue</a>, <a class='category' href='/blog/categories/iowa/'>iowa</a>
   
 </span>
 
@@ -1083,7 +1085,6 @@
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </div>
 </section>
-
 <section class="panel panel-default clearfix">
   <div class="panel-heading">
       <h3 class="panel-title">GitHub Repos</h3>
@@ -1138,10 +1139,6 @@
   </div>
 </section>
 
-
-
-
-
       
     </aside>
   
@@ -1161,9 +1158,7 @@
 
 </div>
 </footer>
-    <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="/javascripts/modernizr-2.0.js"></script>
-
+    
 
 <script type="text/javascript">
       var disqus_shortname = 'brewpuppy';
@@ -1212,7 +1207,8 @@
   </script>
 
 
-
+<script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr-2.0.js"></script>
 
 
   </body>

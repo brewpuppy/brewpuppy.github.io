@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
   <title>Tasting of Boulevard - Chocolate Ale - BREW PUPPY dot NET</title>
@@ -20,24 +18,25 @@
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="BREW PUPPY dot NET" type="application/atom+xml">
 
-  <link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/spacelab/bootstrap.min.css">
-
-
   <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-32307763-1']);
-    _gaq.push(['_trackPageview']);
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+<!-- <link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"> -->
+<link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/sandstone/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+  
+   <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-32307763-1', 'auto');
+    ga('send', 'pageview');
+
   </script>
 
 
@@ -60,7 +59,7 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="active">
-                    <a href="/">Blog</a>
+                    <a rel="index" href="/">Blog</a>
                 </li>
                 <li >
                     <a href="/blog/archives">Archives</a>
@@ -95,8 +94,11 @@
       <div id="main" class="container">
         <div id="content">
           <div class="row">
-  <div class="page-content col-md-9">
-    <article class="hentry" role="article">
+  <div class="page-content col-md-9" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="BREW PUPPY dot NET" />
+    <meta itemprop="description" content="Can computer science, existing little more than a century, be successfully applied to the millenia old practice of brewing? This intersection of technologies is what Brew Puppy was created to explore." />
+    <meta itemprop="url" content="http://brewpuppy.github.io" />
+    <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
       
   <header class="page-header">
     
@@ -114,12 +116,12 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-02-07T00:00:00-06:00" pubdate data-updated="true">Feb 7<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-02-07T00:00:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">07 Feb 2014</time>
         
       </p>
     
     
-    <h1 class="entry-title">
+    <h1 class="entry-title" itemprop="name headline">
         Tasting of Boulevard - Chocolate Ale
         
     </h1>
@@ -127,7 +129,7 @@
   </header>
 
 
-<div class="entry-content clearfix"><p><img class="right" src="/images/blog/2014/02/chocolate-ale/table-inside.jpg" width="200" title="On the Bier Garden" alt="Picture of beer in glass inside with terribly lighting"> A collaboration between <a href="http://www.elbowchocolates.com/">Christopher Elbow</a> and Boulevard brewmaster Steven Pauwels, Chocolate Ale harmonizes the chocolate and malt, each supporting and enhancing, but not overwhelming, the other. Elbow recommended a rare variety of chocolate from the Dominican Republic, prized for its robust flavor and aroma. More than a mere flavoring, the crushed, roasted beans were incorporated into the brewing process itself.</p>
+<div class="entry-content clearfix" itemprop="articleBody"><p><img class="right" src="/images/blog/2014/02/chocolate-ale/table-inside.jpg" width="200" title="On the Bier Garden" alt="Picture of beer in glass inside with terribly lighting"> A collaboration between <a href="http://www.elbowchocolates.com/">Christopher Elbow</a> and Boulevard brewmaster Steven Pauwels, Chocolate Ale harmonizes the chocolate and malt, each supporting and enhancing, but not overwhelming, the other. Elbow recommended a rare variety of chocolate from the Dominican Republic, prized for its robust flavor and aroma. More than a mere flavoring, the crushed, roasted beans were incorporated into the brewing process itself.</p>
 
 <p>Chocolate Ale is full of surprises, beginning with a glowing amber hue. The aroma is given over to earthy, fruity cocoa, with just a hint of hops. Smooth layers of dark chocolate intertwine with threads of caramel, vanilla, and nutty malt as the flavor warms and rounds to a bitter-sweet finish.</p>
 
@@ -158,11 +160,11 @@
 <li>Cacao Nibs</li>
 </ul>
 </li>
-<li>Color &ndash; 41 EBC / 21 SRM</li>
-<li>Bitterness &ndash; 24 IBU</li>
-<li>Original Gravity &ndash; 20 Plato / 1.083 Specific Gravity</li>
-<li>Terminal Gravity &ndash; 4 Plato / 1.016 Specific Gravity</li>
-<li>Alcohol (ABV) &ndash; 9.1%</li>
+<li>Color - 41 EBC / 21 SRM</li>
+<li>Bitterness - 24 IBU</li>
+<li>Original Gravity - 20 Plato / 1.083 Specific Gravity</li>
+<li>Terminal Gravity - 4 Plato / 1.016 Specific Gravity</li>
+<li>Alcohol (ABV) - 9.1%</li>
 </ul>
 
 
@@ -174,19 +176,19 @@
 <p><a href="http://www.bjcp.org/2008styles/style23.php">Speciality Beer (23)</a>, base style unknown but my guess is a <a href="http://www.bjcp.org/2008styles/style10.php#1c">American Brown Ale (10C)</a>.</p>
 
 <ul>
-<li>Appearance &ndash; Clear, dark amber color. Moderate, light tan head with decent retention from the wheat.</li>
-<li>Aroma &ndash; Fruit notes mixed with a rich cocoa, with just a hint of green/minty hop aroma. The character of the cacao nibs should be evident.</li>
-<li>Flavor &ndash; High caramel, vanilla, and nutty malt flavors. Medium bitter finish from the chocolate. Slightly sweet from the caramel malts. Medium body finishing with some alcohol warmth. The distinctive flavor character associated from the cacao nibs should be noticeable.</li>
+<li>Appearance - Clear, dark amber color. Moderate, light tan head with decent retention from the wheat.</li>
+<li>Aroma - Fruit notes mixed with a rich cocoa, with just a hint of green/minty hop aroma. The character of the cacao nibs should be evident.</li>
+<li>Flavor - High caramel, vanilla, and nutty malt flavors. Medium bitter finish from the chocolate. Slightly sweet from the caramel malts. Medium body finishing with some alcohol warmth. The distinctive flavor character associated from the cacao nibs should be noticeable.</li>
 </ul>
 
 
 <h3>Tasting Notes</h3>
 
 <ul>
-<li>Appearance &ndash; Copper color with medium-high clarity. The head is an ivory with low retention, possibly from being on draft. The CO2 bubbles rising from the sides of the glass from the higher level makes the beer quite the looker.</li>
-<li>Aroma &ndash; Exactly how a chocolate ale should smell. The cocoa is the dominant aroma with sweet caramel malt coming in a distant second. Possibly some fruit mixed in there but the cocoa has beaten the other aromas into submission.</li>
-<li>Flavor &ndash; Heavy malt, with grainy, caramel, and cocoa dominating. Reminds me of the flavors of a Tootsie Roll but with a rich vanilla backbone. The cacao gives the beer a different sort of bitterness which doesn&rsquo;t linger.</li>
-<li>Mouthfeel &ndash; Dry finish which evaporates off the tongue. Light bodied and effervescent with lingering alcohol warmth.</li>
+<li>Appearance - Copper color with medium-high clarity. The head is an ivory with low retention, possibly from being on draft. The CO2 bubbles rising from the sides of the glass from the higher level makes the beer quite the looker.</li>
+<li>Aroma - Exactly how a chocolate ale should smell. The cocoa is the dominant aroma with sweet caramel malt coming in a distant second. Possibly some fruit mixed in there but the cocoa has beaten the other aromas into submission.</li>
+<li>Flavor - Heavy malt, with grainy, caramel, and cocoa dominating. Reminds me of the flavors of a Tootsie Roll but with a rich vanilla backbone. The cacao gives the beer a different sort of bitterness which doesn&rsquo;t linger.</li>
+<li>Mouthfeel - Dry finish which evaporates off the tongue. Light bodied and effervescent with lingering alcohol warmth.</li>
 </ul>
 
 
@@ -204,7 +206,7 @@
 <p>The practically non-existent head cost the beer one point.</p>
 
 <ul>
-<li>Second Opinion &ndash; The Wife: 2 / 3
+<li>Second Opinion - The Wife: 2 / 3
 
 <ul>
 <li>Head: Low Size and Retention, Cream Color</li>
@@ -290,7 +292,7 @@
           
   
 
-<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard">Posted by <span class="fn">Luke Dodge</span></span>
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Posted by <span class="fn" itemprop="name">Luke Dodge</span></span>
 
           
 
@@ -305,13 +307,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-02-07T00:00:00-06:00" pubdate data-updated="true">Feb 7<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-02-07T00:00:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">07 Feb 2014</time>
           
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/boulevard/'>Boulevard</a>, <a class='category' href='/blog/categories/smokestack/'>Smokestack</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/boulevard/'>boulevard</a>, <a class='category' href='/blog/categories/smokestack/'>smokestack</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -365,7 +367,6 @@
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </div>
 </section>
-
 <section class="panel panel-default clearfix">
   <div class="panel-heading">
       <h3 class="panel-title">GitHub Repos</h3>
@@ -420,10 +421,6 @@
   </div>
 </section>
 
-
-
-
-
     
   </aside>
   
@@ -443,9 +440,7 @@
 
 </div>
 </footer>
-    <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="/javascripts/modernizr-2.0.js"></script>
-
+    
 
 <script type="text/javascript">
       var disqus_shortname = 'brewpuppy';
@@ -497,7 +492,8 @@
   </script>
 
 
-
+<script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr-2.0.js"></script>
 
 
   </body>

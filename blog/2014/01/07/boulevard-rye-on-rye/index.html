@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
   <title>Tasting of Boulevard - Rye-On-Rye - BREW PUPPY dot NET</title>
@@ -20,24 +18,25 @@
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="BREW PUPPY dot NET" type="application/atom+xml">
 
-  <link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="/javascripts/libs/bootstrap-3.0.0/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/spacelab/bootstrap.min.css">
-
-
   <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-32307763-1']);
-    _gaq.push(['_trackPageview']);
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+<!-- <link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/assets/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"> -->
+<link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/sandstone/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+  
+   <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-32307763-1', 'auto');
+    ga('send', 'pageview');
+
   </script>
 
 
@@ -60,7 +59,7 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="active">
-                    <a href="/">Blog</a>
+                    <a rel="index" href="/">Blog</a>
                 </li>
                 <li >
                     <a href="/blog/archives">Archives</a>
@@ -95,8 +94,11 @@
       <div id="main" class="container">
         <div id="content">
           <div class="row">
-  <div class="page-content col-md-9">
-    <article class="hentry" role="article">
+  <div class="page-content col-md-9" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="BREW PUPPY dot NET" />
+    <meta itemprop="description" content="Can computer science, existing little more than a century, be successfully applied to the millenia old practice of brewing? This intersection of technologies is what Brew Puppy was created to explore." />
+    <meta itemprop="url" content="http://brewpuppy.github.io" />
+    <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
       
   <header class="page-header">
     
@@ -114,12 +116,12 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-01-07T00:00:00-06:00" pubdate data-updated="true">Jan 7<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-01-07T00:00:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">07 Jan 2014</time>
         
       </p>
     
     
-    <h1 class="entry-title">
+    <h1 class="entry-title" itemprop="name headline">
         Tasting of Boulevard - Rye-On-Rye
         
     </h1>
@@ -127,7 +129,7 @@
   </header>
 
 
-<div class="entry-content clearfix"><p><img class="right" src="/images/blog/2014/01/rye-on-rye/outside.jpg" width="300" title="Outside Facing North" alt="Picture of bottle and beer in glass outside with northern light"> Rye is an assertively flavorful grain more often associated with whiskey than with ales but has largely been eclipsed by corn and barley, the sources of bourbon and scotch. When Boulevard procured seasoned barrels from <a href="http://www.templetonrye.com">Templeton Rye</a>, they chose to brew a rich, tawny rye ale, then mellowed it in the warmth of charred oak rye whiskey casks. Two kinds of malted rye provide spicy sweetness, giving way to notes of caramelized wood and the citrusy tang of Citra and Ahtanum hops before easing into a dry, lingering finish.</p>
+<div class="entry-content clearfix" itemprop="articleBody"><p><img class="right" src="/images/blog/2014/01/rye-on-rye/outside.jpg" width="300" title="Outside Facing North" alt="Picture of bottle and beer in glass outside with northern light"> Rye is an assertively flavorful grain more often associated with whiskey than with ales but has largely been eclipsed by corn and barley, the sources of bourbon and scotch. When Boulevard procured seasoned barrels from <a href="http://www.templetonrye.com">Templeton Rye</a>, they chose to brew a rich, tawny rye ale, then mellowed it in the warmth of charred oak rye whiskey casks. Two kinds of malted rye provide spicy sweetness, giving way to notes of caramelized wood and the citrusy tang of Citra and Ahtanum hops before easing into a dry, lingering finish.</p>
 
 <div class="alert alert-info"><strong>Heads up!</strong> Despite what your bottle label may say, Boulevard Brewer Jeremy Danner has confirmed the hop schedule listed here is correct.</div>
 
@@ -136,10 +138,10 @@
 <li>Hops:
 
 <ul>
-<li>Magnum &ndash; Bittering</li>
-<li>Citra &ndash; Bittering/Flavor</li>
-<li>Styrian Golding &ndash; Flavor/Aroma (in kettle)</li>
-<li>Ahtanum &ndash; Flavor/Aroma (in whirlpool)</li>
+<li>Magnum - Bittering</li>
+<li>Citra - Bittering/Flavor</li>
+<li>Styrian Golding - Flavor/Aroma (in kettle)</li>
+<li>Ahtanum - Flavor/Aroma (in whirlpool)</li>
 </ul>
 </li>
 <li>Malts:
@@ -159,12 +161,12 @@
 <li>Brown Sugar</li>
 </ul>
 </li>
-<li>Color &ndash; 44 EBC / 22 SRM</li>
-<li>Bitterness &ndash; 47 IBU</li>
-<li>Original Gravity &ndash; 22.5 Plato / 1.094 Specific Gravity</li>
-<li>Terminal Gravity &ndash; 2.8 Plato / 1.011 Specific Gravity</li>
-<li>Alcohol (ABV) &ndash; 12%</li>
-<li>CO2 &ndash; Bottles &ndash; 6.8 g/L</li>
+<li>Color - 44 EBC / 22 SRM</li>
+<li>Bitterness - 47 IBU</li>
+<li>Original Gravity - 22.5 Plato / 1.094 Specific Gravity</li>
+<li>Terminal Gravity - 2.8 Plato / 1.011 Specific Gravity</li>
+<li>Alcohol (ABV) - 12%</li>
+<li>CO2 - Bottles - 6.8 g/L</li>
 </ul>
 
 
@@ -176,18 +178,18 @@
 <p>What first springs to mind for me is an imperial version of an <a href="http://www.bjcp.org/2008styles/style06.php#1d">American Rye Beer (6D)</a> but the color is far too dark to be true to the style, not to mention the oak aging. The extra bitterness should balance out the rich malts as long as the spice of the rye is not overpowering.</p>
 
 <ul>
-<li>Appearance &ndash; Dark amber more in line with a porter or stout and a nice solid head from the rye.</li>
-<li>Aroma &ndash; Oak, caramels, and maybe a touch of citrus or spicy notes.</li>
-<li>Flavor &ndash; Sweet caramels from the crystal malts and spiciness from the rye on the front. Warmth from the alcohol. Rich sweetness from the high OG balanced with the bitterness of the hops and rye. I&rsquo;m not sure how the citrus flavors of the hops will fit in but I&rsquo;m hoping they compliment the spiciness of the rye. Oak flavors always take me by surprise in their individual character so while I&rsquo;m expecting the oak flavors to be noticeable, I&rsquo;m not sure exactly how it will come through.</li>
+<li>Appearance - Dark amber more in line with a porter or stout and a nice solid head from the rye.</li>
+<li>Aroma - Oak, caramels, and maybe a touch of citrus or spicy notes.</li>
+<li>Flavor - Sweet caramels from the crystal malts and spiciness from the rye on the front. Warmth from the alcohol. Rich sweetness from the high OG balanced with the bitterness of the hops and rye. I&rsquo;m not sure how the citrus flavors of the hops will fit in but I&rsquo;m hoping they compliment the spiciness of the rye. Oak flavors always take me by surprise in their individual character so while I&rsquo;m expecting the oak flavors to be noticeable, I&rsquo;m not sure exactly how it will come through.</li>
 </ul>
 
 
 <h3>Tasting Notes</h3>
 
 <ul>
-<li>Appearance &ndash; Beautiful amber, mostly clear with just a touch of turbidity. Average dark beige head which dissipates quickly.</li>
-<li>Aroma &ndash; Caramel and dark fruit notes with some rye spiciness pulling everything together. Brett sourness comes to mind, possibly from the combination of hops and barrel character.</li>
-<li>Flavor &ndash; Simple elegant flavors of rich caramel and a sourness/citrus of hops which I found extremely similar to Brett. Rye was mellow but in a good way. Pleasant warmth of alcohol complements the sweet bourbon twang from the barrels.</li>
+<li>Appearance - Beautiful amber, mostly clear with just a touch of turbidity. Average dark beige head which dissipates quickly.</li>
+<li>Aroma - Caramel and dark fruit notes with some rye spiciness pulling everything together. Brett sourness comes to mind, possibly from the combination of hops and barrel character.</li>
+<li>Flavor - Simple elegant flavors of rich caramel and a sourness/citrus of hops which I found extremely similar to Brett. Rye was mellow but in a good way. Pleasant warmth of alcohol complements the sweet bourbon twang from the barrels.</li>
 </ul>
 
 
@@ -205,7 +207,7 @@
 <p>The low head retention cost the beer one point, but was otherwise spot on.</p>
 
 <ul>
-<li>Second Opinion &ndash; The Wife: 3 / 3
+<li>Second Opinion - The Wife: 3 / 3
 
 <ul>
 <li>Head: Smooth Texture, Medium Size, Medium-Low Retention, Cream Color</li>
@@ -290,7 +292,7 @@
           
   
 
-<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard">Posted by <span class="fn">Luke Dodge</span></span>
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Posted by <span class="fn" itemprop="name">Luke Dodge</span></span>
 
           
 
@@ -305,13 +307,13 @@
 
 
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-01-07T00:00:00-06:00" pubdate data-updated="true">Jan 7<span>th</span>, 2014</time>
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-01-07T00:00:00-06:00"  data-updated="true" itemprop="datePublished dateCreated">07 Jan 2014</time>
           
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/blog/categories/boulevard/'>Boulevard</a>, <a class='category' href='/blog/categories/smokestack/'>Smokestack</a>, <a class='category' href='/blog/categories/tasting/'>Tasting</a>
+    <a class='category' href='/blog/categories/boulevard/'>boulevard</a>, <a class='category' href='/blog/categories/smokestack/'>smokestack</a>, <a class='category' href='/blog/categories/tasting/'>tasting</a>
   
 </span>
 
@@ -365,7 +367,6 @@
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   </div>
 </section>
-
 <section class="panel panel-default clearfix">
   <div class="panel-heading">
       <h3 class="panel-title">GitHub Repos</h3>
@@ -420,10 +421,6 @@
   </div>
 </section>
 
-
-
-
-
     
   </aside>
   
@@ -443,9 +440,7 @@
 
 </div>
 </footer>
-    <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="/javascripts/modernizr-2.0.js"></script>
-
+    
 
 <script type="text/javascript">
       var disqus_shortname = 'brewpuppy';
@@ -497,7 +492,8 @@
   </script>
 
 
-
+<script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/javascripts/modernizr-2.0.js"></script>
 
 
   </body>
